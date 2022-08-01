@@ -4,22 +4,11 @@
         <title>MediaMate</title>
         <item>
             <title>1.0</title>
-            <pubDate>Mon, 01 Aug 2022 02:30:27 +0200</pubDate>
-            <sparkle:version>606</sparkle:version>
+            <pubDate>Mon, 01 Aug 2022 15:02:49 +0200</pubDate>
+            <sparkle:version>50</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.0_606/MediaMate_1_0_606.zip" length="6145043" type="application/octet-stream" sparkle:edSignature="WAguN+8ips5N4nq/ca+GPjkdibwOMtTehLTs0vhJ85addN1o+U9gtC+kw/FLHAaGII9kfuO0rCyQO1WfRYKwCA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.0_606/MediaMate606-605.delta" sparkle:deltaFrom="605" length="4634" type="application/octet-stream" sparkle:edSignature="5S+PdDntiEXDEfkMK8jL9MSiKq+CdjzOfU+ueIez5z679w6QcyjQI8tUD0tJTpOBqUqgzNpWwgvkHaz24wurCQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Mon, 01 Aug 2022 02:22:56 +0200</pubDate>
-            <sparkle:version>605</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.0_605/MediaMate_1_0_605.zip" length="6145034" type="application/octet-stream" sparkle:edSignature="ltZQxjbVrfdTiIMgHEPhbIHrCuVOn3o12NW+hw9bTIK7MHIB7fO6Rv/XHS/4g7D2RrioWsyEqNVxh2nCHUomDg=="/>
+            <enclosure url="https://raw.githubusercontent.com/Wouter01/MediaMate-Releases/releases/download/v1.0_50/MediaMate_v1.0-50.zip" length="6145053" type="application/octet-stream" sparkle:edSignature="I2zeA5U1jjcLWXgYPq5aIYhhNjXXI+nyFHQxgRSfzfoZdOp8Ss7rPtaBSbUWrTpe3GBtjHAiYa17tVAlLC3zCA=="/>
         </item>
     </channel>
 </rss>
