@@ -4,6 +4,18 @@
         <title>MediaMate</title>
         <item>
             <title>1.0</title>
+            <pubDate>Tue, 02 Aug 2022 03:12:40 +0200</pubDate>
+            <sparkle:version>54</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.0_54/MediaMate_v1.0-54.zip" length="6149922" type="application/octet-stream" sparkle:edSignature="eTaPiIC+78rgSA+R85JYjsJH5JBSsAUOcuAfUXspuwbPKS+/ARBqtO0am9+njW8Nw5xzDJrvffVsmBdjLHBqCg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.0_54/MediaMate54-53.delta" sparkle:deltaFrom="53" length="125038" type="application/octet-stream" sparkle:edSignature="LlKguN6yCsRGqFJazFJgNhWH48Z5lOJU3viLH6v13RjVxcxx2XPBF4CBhLgsWgfX2bXoPGWA7aMpv7p2ELudBQ=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.0_54/MediaMate54-50.delta" sparkle:deltaFrom="50" length="154882" type="application/octet-stream" sparkle:edSignature="6WVhSlm19cZLvDF7QJxMLMT0Pchm0vPRO6OPbXzwVNPUitlS29lmB83vVA9pXh5EzFNgjxktbOSZJGSk7aluAA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0</title>
             <pubDate>Mon, 01 Aug 2022 16:00:55 +0200</pubDate>
             <sparkle:version>53</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
