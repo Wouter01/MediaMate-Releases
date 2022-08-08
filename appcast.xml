@@ -4,6 +4,21 @@
         <title>MediaMate</title>
         <item>
             <title>1.0</title>
+            <pubDate>Mon, 08 Aug 2022 20:58:46 +0200</pubDate>
+            <sparkle:version>68</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.0_68/MediaMate_v1.0-68.zip" length="3995958" type="application/octet-stream" sparkle:edSignature="RNnxu7xATX1jc+d5MDL48ZxtORrPK7ZMKiOuMuikrkHxBkhETYeHFkSbAPr8d1JXoViuQpRs9pJhTqeXr4giAA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.0_68/MediaMate68-59.delta" sparkle:deltaFrom="59" length="430238" type="application/octet-stream" sparkle:edSignature="KtfuoucLKftkOt8CvEFsmm7L8yi3FHE4FCNMuHSS6Gt4ZgQckvzAaFZTHi1no7nvWClv1qmA+oDjnnf7xZY6Dg=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.0_68/MediaMate68-57.delta" sparkle:deltaFrom="57" length="464394" type="application/octet-stream" sparkle:edSignature="TsyYaltcgXdiBkO3QWyJsexU3UVK/kM3tctoRSRhtqAlcb9EBb3GUX8gEx1lPkvT9anI6PdImAyqF56mWPwDDg=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.0_68/MediaMate68-56.delta" sparkle:deltaFrom="56" length="483494" type="application/octet-stream" sparkle:edSignature="2UAwyaJbz/t108pt0CLtAn4PnIXnb/+AK/UycfgX+CRUpqKfiUkg3wOeFeu6t5oBsCnLzgrKEzDRGinwrM1wDA=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.0_68/MediaMate68-54.delta" sparkle:deltaFrom="54" length="492746" type="application/octet-stream" sparkle:edSignature="8S2ajIQ4PT0ZhLo3rwLoLbUE4Fq0Xuxx0D7nK5YuUQa8y+e2dy3rPkdLlxUVjZp5ZLFCWLu0uBm1nqSfWZsiAw=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.0_68/MediaMate68-53.delta" sparkle:deltaFrom="53" length="498270" type="application/octet-stream" sparkle:edSignature="u/iaTEwmUM3sMSFvMm5VWFLgXfpt7rBWl0RMCjkOoAu2ortUDXebV3NqD28lsmzCv3cuf02pmRcRdDIBiWS4Cw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0</title>
             <pubDate>Fri, 05 Aug 2022 18:21:06 +0200</pubDate>
             <sparkle:version>59</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
