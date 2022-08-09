@@ -4,132 +4,22 @@
         <title>MediaMate</title>
         <item>
             <title>1.0</title>
-            <pubDate>Mon, 08 Aug 2022 20:58:46 +0200</pubDate>
-            <sparkle:version>68</sparkle:version>
+            <pubDate>Tue, 09 Aug 2022 22:17:40 +0200</pubDate>
+            <sparkle:version>82</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[
-                <p>This release is most likely the last pre-release.
-                You might not be able to install the next version through the app, as that one will be notarized (and this one isn&#39;t).</p>
-                <h2 id="new-features-">New Features:</h2>
-                <ul>
-                <li>Added Tryout Mode</li>
-                <li>Added &quot;while playing media&quot; mode for now playing on lockscreen</li>
-                <li>Added close button when hovering over now playing HUD.</li>
-                </ul>
-                <h2 id="bugfixes-">Bugfixes:</h2>
-                <ul>
-                <li>Various small bugfixes (mostly in the Now Playing HUD).</li>
-                </ul>
-                <h2 id="improvements-">Improvements:</h2>
-                <ul>
-                <li>The HUDs will now be shown on the most recently used display.</li>
-                <li>Improved Settings padding on macOS Monterey.</li>
-                <li>Improved memory usage.</li>
-                <li>Reduced file size by 200%.</li>
-                <li>Multiple performance improvements.</li>
-                </ul>
-            ]]></description>
-            <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.0_68/MediaMate_v1.0-68.zip" length="3995958" type="application/octet-stream" sparkle:edSignature="RNnxu7xATX1jc+d5MDL48ZxtORrPK7ZMKiOuMuikrkHxBkhETYeHFkSbAPr8d1JXoViuQpRs9pJhTqeXr4giAA=="/>
+            <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.0_82/MediaMate_v1.0-82.zip" length="4059532" type="application/octet-stream" sparkle:edSignature="97uBi/d09iqM1vv+Yxq018/sM3g+ZlywO57+OzJRHxQZNzz/rmn6v67sns7UmPm/OvDN/44NZkCfJLbbybkEBw=="/>
             <sparkle:deltas>
-                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.0_68/MediaMate68-59.delta" sparkle:deltaFrom="59" length="430238" type="application/octet-stream" sparkle:edSignature="KtfuoucLKftkOt8CvEFsmm7L8yi3FHE4FCNMuHSS6Gt4ZgQckvzAaFZTHi1no7nvWClv1qmA+oDjnnf7xZY6Dg=="/>
-                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.0_68/MediaMate68-57.delta" sparkle:deltaFrom="57" length="464394" type="application/octet-stream" sparkle:edSignature="TsyYaltcgXdiBkO3QWyJsexU3UVK/kM3tctoRSRhtqAlcb9EBb3GUX8gEx1lPkvT9anI6PdImAyqF56mWPwDDg=="/>
-                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.0_68/MediaMate68-56.delta" sparkle:deltaFrom="56" length="483494" type="application/octet-stream" sparkle:edSignature="2UAwyaJbz/t108pt0CLtAn4PnIXnb/+AK/UycfgX+CRUpqKfiUkg3wOeFeu6t5oBsCnLzgrKEzDRGinwrM1wDA=="/>
-                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.0_68/MediaMate68-54.delta" sparkle:deltaFrom="54" length="492746" type="application/octet-stream" sparkle:edSignature="8S2ajIQ4PT0ZhLo3rwLoLbUE4Fq0Xuxx0D7nK5YuUQa8y+e2dy3rPkdLlxUVjZp5ZLFCWLu0uBm1nqSfWZsiAw=="/>
-                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.0_68/MediaMate68-53.delta" sparkle:deltaFrom="53" length="498270" type="application/octet-stream" sparkle:edSignature="u/iaTEwmUM3sMSFvMm5VWFLgXfpt7rBWl0RMCjkOoAu2ortUDXebV3NqD28lsmzCv3cuf02pmRcRdDIBiWS4Cw=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.0_81/MediaMate82-81.delta" sparkle:deltaFrom="81" length="158990" type="application/octet-stream" sparkle:edSignature="U8WFaS8EDdRemcfbpwctXJ3tJVz4A3Yb2tv8Oww3O9AS2yG7soaZsZutm6fOPDpC9d1Yawre+o/kb2/JoKatAg=="/>
             </sparkle:deltas>
         </item>
         <item>
             <title>1.0</title>
-            <pubDate>Fri, 05 Aug 2022 18:21:06 +0200</pubDate>
-            <sparkle:version>59</sparkle:version>
+            <pubDate>Tue, 09 Aug 2022 21:28:12 +0200</pubDate>
+            <sparkle:version>81</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[
-                <h2>New Features:</h2>
-                <ul>
-                <li>Added "Never" option to never show the volume and brightness HUD.</li>
-                <li>Added toggle to modify the auto-update check setting</li>
-                <li>Added option to not show the HUD when scrubbing on the touchbar</li>
-                <li>New transition for volume and brightness: Grow from edge</li>
-                </ul>
-                <h2>Bugfixes:</h2>
-                <ul>
-                <li>Fixed an issue where the custom sound would play on app launch</li>
-                <li>Fixed multiple issues with the Now Playing HUD.</li>
-                </ul>
-                <h2>Improvements:</h2>
-                <ul>
-                <li>MediaMate will now mute the system beep sound when the custom sound is enabled.</li>
-                <li>The touchbar compatibility mode will now be disabled when the system is locked to preserve battery.</li>
-                <li>When no media artwork is available, the HUD will now show the icon of the playing app.</li>
-                </ul>
-            ]]></description>
-            <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.0_59/MediaMate_v1.0-59.zip" length="6223446" type="application/octet-stream" sparkle:edSignature="J+GMfxGtmyvKiXrrCGpDyID4sqqEqBKF7CiLVELztKwX/gKP/q3IJMkQ3cV/7MJLNl0QBA+Sn+Ei0JdWerUbDA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.0_59/MediaMate59-57.delta" sparkle:deltaFrom="57" length="303602" type="application/octet-stream" sparkle:edSignature="Ufk2Itd+ik3NUWZex5MzazRSL0fwN5yrwyM8shy3uXSWEaitRUqfrsVn2mBZKpSG9S4qXaKVjRXxw43YGFd5BA=="/>
-                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.0_59/MediaMate59-56.delta" sparkle:deltaFrom="56" length="349738" type="application/octet-stream" sparkle:edSignature="asZlqlp2o9m17j+n10T36xGD2SVsF1gbOXc2xiowVzHe+kZJczd2oIlI/6H/rr9xT+E+nTDztzaLMvOmToueCQ=="/>
-                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.0_59/MediaMate59-54.delta" sparkle:deltaFrom="54" length="363010" type="application/octet-stream" sparkle:edSignature="t+GWtqWti3gUuwVhvS77NAI3ADDRQfuqcO1ZjotJWdILfG6SCmbfCSDwmOrJK/7VjAuNlo2jHUrIEnnQ0v0sAw=="/>
-                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.0_59/MediaMate59-53.delta" sparkle:deltaFrom="53" length="369890" type="application/octet-stream" sparkle:edSignature="lr6Rr6E/F3Ucviw3pKLEsauZ0fVMYPSOPBaGN+SYnStMaQ9NioAJwBJWdamEoTvX9FkBE8hiAkMSoYIniByMBQ=="/>
-                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.0_59/MediaMate59-50.delta" sparkle:deltaFrom="50" length="376062" type="application/octet-stream" sparkle:edSignature="VI5TEt1S1djYYpg69GoIN9/mtxi8+9oFqmLgNBM0IvCjd/sUuU3d6+GxNFvrBvAwrmmUEQ95HTSNVD97YelMBg=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Fri, 05 Aug 2022 00:59:57 +0200</pubDate>
-            <sparkle:version>57</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[
-                <h2>New Features:</h2>
-                <ul>
-                <li>Touchbar support!</li>
-                <li>Added toggle to modify the auto-update check setting</li>
-                </ul>
-                <h2>Bugfixes:</h2>
-                <ul>
-                <li>Fixed an issue where the app would crash after entering a license key</li>
-                </ul>
-            ]]></description>
-            <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.0_57/MediaMate_v1.0-57.zip" length="6163952" type="application/octet-stream" sparkle:edSignature="BBIxdVpq54x1nNxwk5pnLMFmsd0qGVcytjr1eSIvRJPEV2SHb6ROxpxQDtrTTOqUIpjEjNyQfEXqBwDeLEpsDQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.0_57/MediaMate57-56.delta" sparkle:deltaFrom="56" length="248418" type="application/octet-stream" sparkle:edSignature="VLn6GBhGnnwH2hDDazF2Ze4gqFsceYbS7ibslLX54UFZoXJlxroKInke8Tu0z3h1p1SyZSxDNtOjacA9yaHGBw=="/>
-                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.0_57/MediaMate57-54.delta" sparkle:deltaFrom="54" length="268474" type="application/octet-stream" sparkle:edSignature="gpb+BDFSwNH3TmVXrsjemTcNk4DIvmBxZq9p4S6Pshj2ycwjKQSoNqkuhtila1mGPT5gZnX0sOmSbSvufDXgBg=="/>
-                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.0_57/MediaMate57-53.delta" sparkle:deltaFrom="53" length="276326" type="application/octet-stream" sparkle:edSignature="XMJ9MHnBT1g8OGMv60g06C0IH24LEU548VURApX3mbI6p5/ZewkxBV7fBKv90MZUm3k4f6NqiRSkuIE/4uQbAQ=="/>
-                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.0_57/MediaMate57-50.delta" sparkle:deltaFrom="50" length="278114" type="application/octet-stream" sparkle:edSignature="MQhzum+Hi7JZTkGeI4Z7Gw+X3dDxDAAVXfV4JyayNNtVKIJCuhMOs92LjhmFwjnw9JbZKPwYkAyHqYlnx4CiDQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Wed, 03 Aug 2022 02:53:16 +0200</pubDate>
-            <sparkle:version>56</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.0_56/MediaMate_v1.0-56.zip" length="6147455" type="application/octet-stream" sparkle:edSignature="qCxIK5GeUQDMDi7EJXq7+Bq+epwIUqhV6gZ912NfzvwUVnCOPWYgbOSbMeG8UPfc4gnlIPB9NSKdcQwIcneCAw=="/>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Tue, 02 Aug 2022 03:12:40 +0200</pubDate>
-            <sparkle:version>54</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.0_54/MediaMate_v1.0-54.zip" length="6149922" type="application/octet-stream" sparkle:edSignature="eTaPiIC+78rgSA+R85JYjsJH5JBSsAUOcuAfUXspuwbPKS+/ARBqtO0am9+njW8Nw5xzDJrvffVsmBdjLHBqCg=="/>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Mon, 01 Aug 2022 16:00:55 +0200</pubDate>
-            <sparkle:version>53</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.0_53/MediaMate_v1.0-53.zip" length="6147381" type="application/octet-stream" sparkle:edSignature="7OSKpIym7OdXr5KLhIpbfP040xiBhUYyXMgDUyW7glFIpDRFJJW+hbKBNe9vteHfG6aXEuenD4jju6rttLObCQ=="/>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Mon, 01 Aug 2022 15:02:49 +0200</pubDate>
-            <sparkle:version>50</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.0_50/MediaMate_v1.0-50.zip" length="6145053" type="application/octet-stream" sparkle:edSignature="I2zeA5U1jjcLWXgYPq5aIYhhNjXXI+nyFHQxgRSfzfoZdOp8Ss7rPtaBSbUWrTpe3GBtjHAiYa17tVAlLC3zCA=="/>
+            <enclosure url="https://raw.githubusercontent.com/Wouter01/MediaMate-Releases/sparkle/MediaMate_v1.0-81.zip" length="4057754" type="application/octet-stream" sparkle:edSignature="IMuLXeKFsLUgBkwRBq3NJG8mrqyrmj7VKPqXbmeVBAoQnzTF05rM6DvTBVkiXDTv5NDW7gMN2ct5nBo+UyvRCg=="/>
         </item>
     </channel>
 </rss>
