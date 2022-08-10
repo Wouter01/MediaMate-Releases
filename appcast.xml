@@ -3,6 +3,36 @@
     <channel>
         <title>MediaMate</title>
         <item>
+            <title>1.1</title>
+            <pubDate>Wed, 10 Aug 2022 22:35:37 +0200</pubDate>
+            <sparkle:version>88</sparkle:version>
+            <sparkle:shortVersionString>1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2 id="new-features-">New Features:</h2>
+                <ul>
+                <li>Added the default macOS transition to the brightness and volume HUD (&quot;pop in, fade out&quot;).</li>
+                <li>Granular control of Volume and Brightness! Choose which modifier key you want to use (⇧, ⌃, ⌥, ⌘) and choose the step size per press.</li>
+                <li>Choose the step size of a regular adjustment of volume and brightness.</li>
+                </ul>
+                <h2 id="improvements-">Improvements:</h2>
+                <ul>
+                <li>Tweaked the touchbar compatibility mode a bit so it is more reliable (hopefully).</li>
+                </ul>
+                <h2 id="bugfixes-">Bugfixes:</h2>
+                <ul>
+                <li>Fixes an issue where the Brightness HUD would not disappear if used with some keyboards.</li>
+                <li>Fixes an issue where the Now Playing HUD would not finish the disappear transition on notched macbooks.</li>
+                </ul>
+            ]]></description>
+            <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.1_88/MediaMate_v1.1-88.zip" length="4082188" type="application/octet-stream" sparkle:edSignature="A9kLYEETnEeQPcSxu+aObeK1qPoAgmxO1GVc4wTPYXb0HqS/xJlhR1LKUpMAIM6gm4yBeeRhOXOctxs7R5I+Dw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.1_88/MediaMate88-84.delta" sparkle:deltaFrom="84" length="270854" type="application/octet-stream" sparkle:edSignature="x5xPCXevoC5HUl4vpZJ9ViolohjOKfhXj21yEygdkywuEhwkZ8Y2eDZpF8fAE7aLOEqvUbahLf+66lW2zCU+Bw=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.1_88/MediaMate88-82.delta" sparkle:deltaFrom="82" length="277242" type="application/octet-stream" sparkle:edSignature="tA6CFxZFf92JC+8KfRU2EVB9MFGs4CIi4/dByTAJAvJ5VUyuimNrp018PTM9zmWDdF27fGK7HXgtA9aHH/+pCg=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.1_88/MediaMate88-81.delta" sparkle:deltaFrom="81" length="281830" type="application/octet-stream" sparkle:edSignature="ia2p64oSLKeekLviTtuyxDsTorSMCUYaabqjDdMHLXPGuNEHhJFoJEWpPCgXb0xPKhxCuEbv2rMXYFsqQQ0JAw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.0.1</title>
             <pubDate>Wed, 10 Aug 2022 02:02:12 +0200</pubDate>
             <sparkle:version>84</sparkle:version>
