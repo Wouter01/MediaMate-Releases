@@ -3,6 +3,56 @@
     <channel>
         <title>MediaMate</title>
         <item>
+            <title>1.2</title>
+            <pubDate>Sat, 13 Aug 2022 20:07:57 +0200</pubDate>
+            <sparkle:version>93</sparkle:version>
+            <sparkle:shortVersionString>1.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2 id="new-features-">New Features:</h2>
+                <ul>
+                <li>HUD for Keyboard Brightness</li>
+                <li>Quick Keys: Quickly put Brightness of display and keyboard to min/max using their keys + a modifier key (⇧, ⌃, ⌥, ⌘)</li>
+                <li>Simulate Keyboard Brightness Keys: If your macbook doesn&#39;t have Keyboard Brightness Keys, you can now control them with the Brightness Keys + modifier (⇧, ⌃, ⌥, ⌘)</li>
+                <li>Control the Volume Feedback Sound with a modifier key (like the default macOS behavior)</li>
+                <li>Quickly open the expanded Now Playing HUD with a keyboard shortcut</li>
+                <li>Provide Feedback through the app.</li>
+                <li>Disable dynamic width of the Now Playing HUD</li>
+                <li>Disable dynamic Font Size of the Now Playing HUD</li>
+                <li>Check for Updates button is visible in the Settings Window. </li>
+                <li>App version and build number are visible in the Settings Window.</li>
+                </ul>
+                <h2 id="improvements-">Improvements:</h2>
+                <ul>
+                <li>The default shape of the Now Playing HUD has been changed to &quot;Squared&quot;</li>
+                <li>Moved lots of settings around so they are more logically placed.</li>
+                <li>Brightness HUD and Volume HUD now have the same height (yes, they were slightly off!)</li>
+                <li>Volume HUD bar is now empty when the volume is muted.</li>
+                </ul>
+                <h2 id="bugfixes-">Bugfixes:</h2>
+                <ul>
+                <li>Fixed an issue where the menubar wouldn&#39;t be clickable if the menubar icon was hidden.</li>
+                <li>Fixed (hopefully) an issue where the app would quit if the menubar icon was hidden.</li>
+                <li>Fixed an issue where the HUDs would not be centered if the dock was in a vertical position.</li>
+                <li>Fixed an issue where Non-allowed apps would still show on the Now Playing HUD.</li>
+                <li>Fixed an issue where the Volume and Brightness HUD could flicker on macOS Monterey.</li>
+                <li>Fixed an issue where the volume change sound would be delayed.</li>
+                </ul>
+                <h2 id="other">Other</h2>
+                <ul>
+                <li>Disabled &quot;Remove License&quot; functionality in the app due to security concerns.</li>
+                <li>Disabled &quot;Grow with blur&quot; and &quot;Shrink with blur&quot; transitions in Monterey due to glitches.</li>
+                </ul>
+            ]]></description>
+            <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.2_93/MediaMate_v1.2-93.zip" length="4275666" type="application/octet-stream" sparkle:edSignature="VELnVRhYuGUJoJpQ9PKZC643c8LSoniufixZV3K6IsYG5dwD2Ob3zs4sCyn+HLGkaXhXx5YcM26YghdpyU0sDw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.2_93/MediaMate93-88.delta" sparkle:deltaFrom="88" length="619870" type="application/octet-stream" sparkle:edSignature="lzvAGP1BLzJPhxnkhXIwkvO/kwCM4Oxhlf4n+9U14GmW61RqyRqBPmeUmD0+oX5dWBvAgDWT2yHwDJj1kF2uAA=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.2_93/MediaMate93-84.delta" sparkle:deltaFrom="84" length="640242" type="application/octet-stream" sparkle:edSignature="yGwHBsgJ5KDdKWjvcTxNYkDyCKEkGniwBEEDI2oyAFFWX/Y7XUqwH7hTPzQRh+D7nbvj6f4EXQj9twocJQT1BA=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.2_93/MediaMate93-82.delta" sparkle:deltaFrom="82" length="645238" type="application/octet-stream" sparkle:edSignature="9E83BtxzCORfBo1ji0ojItRkRczJ4KWy1SGop6Qm8pW86EugbQQCedDKht2MYDcAm6yvU7d9YIzUoy5CpIAlCw=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.2_93/MediaMate93-81.delta" sparkle:deltaFrom="81" length="645294" type="application/octet-stream" sparkle:edSignature="AJ9qD0vNNSjnoUgRsLqBPwOTyaS3vyezx6IaYjlsGNLq+JElpTjFrDyD1Iu0gs00ccBhEJoujLxri63YsFRPCg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.1</title>
             <pubDate>Wed, 10 Aug 2022 22:35:37 +0200</pubDate>
             <sparkle:version>88</sparkle:version>
