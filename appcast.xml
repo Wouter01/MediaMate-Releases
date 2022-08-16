@@ -3,6 +3,38 @@
     <channel>
         <title>MediaMate</title>
         <item>
+            <title>1.2.1</title>
+            <pubDate>Tue, 16 Aug 2022 17:51:30 +0200</pubDate>
+            <sparkle:version>99</sparkle:version>
+            <sparkle:shortVersionString>1.2.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2 id="new-features">New Features</h2>
+                <ul>
+                <li>Reduced translucency option</li>
+                </ul>
+                <h2 id="improvements">Improvements</h2>
+                <ul>
+                <li>The close button on the Now Playing HUD is more in line with the default macOS style.</li>
+                <li>Added a &quot;full log&quot; option when sending feedback.</li>
+                </ul>
+                <h2 id="bugfixes">Bugfixes</h2>
+                <ul>
+                <li>Fixes an issue where launch at login would not work on Monterey</li>
+                <li>Fixes (hopefully) an issue where the app would quit unexpectedly when the menubar icon is hidden.</li>
+                <li>Fixes an issue where there would be small white lines around HUDs on Monterey</li>
+                </ul>
+            ]]></description>
+            <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.2.1_99/MediaMate_v1.2.1-99.zip" length="4316099" type="application/octet-stream" sparkle:edSignature="QfrLh79nTUoyh/HcAerdmrQlgQUpeqc049WqI3K88Oe78C2GwLmzG/fanZBjEZlt3ilsjT22fz4Ui7uHtb4oDA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.2.1_99/MediaMate99-93.delta" sparkle:deltaFrom="93" length="530654" type="application/octet-stream" sparkle:edSignature="op5qYnZWJLfNqzCT4Q/2o6OObFdEnCsAF6DZJbOVKrcQNd94JlHushOIhauY0uXNxpXM00wqzuxpip5E5SjaDg=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.2.1_99/MediaMate99-88.delta" sparkle:deltaFrom="88" length="727634" type="application/octet-stream" sparkle:edSignature="Zy0lLkzWi0bFG/gbRb4HorkMbtRATCxUDLG+d0YqAw3IVqpzZsxcSYL/71dx9cX+UXSGgIG4uR6iM439xnEUAw=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.2.1_99/MediaMate99-84.delta" sparkle:deltaFrom="84" length="740710" type="application/octet-stream" sparkle:edSignature="ELxznm/ZscX5l9RZiYzMCSYojaYi8knjw7DHjJumsNeDYTKeaWFrSvZH+eW91lbKIrAshzdY12Q3yDJGHdyYCQ=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.2.1_99/MediaMate99-82.delta" sparkle:deltaFrom="82" length="742830" type="application/octet-stream" sparkle:edSignature="faizqGklx9g0C46tfR4naMlGE7un8YrWuj9v28I4LDm6TODkLSWx0D1wsKda7tr1kK878++O5jFv84a3f8FVBA=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.2.1_99/MediaMate99-81.delta" sparkle:deltaFrom="81" length="743206" type="application/octet-stream" sparkle:edSignature="ezcyApGQPh3swpBiXP/WQmHmZiTdXxwL+U19GonvxnEVrV7Pz57mBOJ1YXlOYixFp33cV6gtvB5BgFnnYyZDDg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.2</title>
             <pubDate>Sat, 13 Aug 2022 20:07:57 +0200</pubDate>
             <sparkle:version>93</sparkle:version>
