@@ -3,6 +3,40 @@
     <channel>
         <title>MediaMate</title>
         <item>
+            <title>1.3</title>
+            <pubDate>Thu, 18 Aug 2022 03:09:02 +0200</pubDate>
+            <sparkle:version>104</sparkle:version>
+            <sparkle:shortVersionString>1.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2 id="new-features">New Features</h2>
+                <ul>
+                <li>Basic support for external apps (e.g. MonitorControl, Lunar) in <strong>Sync Mode</strong> (Beta).</li>
+                <li>New more reliable method to disable the native HUDs on touchbar macbooks.</li>
+                <li>Option to reveal the Now Playing HUD when the menubar item is clicked.</li>
+                </ul>
+                <h2 id="improvements">Improvements</h2>
+                <ul>
+                <li>&quot;Center&quot; option in the layout settings is lowered on the screen instead of the absolute center.</li>
+                </ul>
+                <h2 id="bugfixes">Bugfixes</h2>
+                <ul>
+                <li>Fixes an issue where the volume would hang at 50%.</li>
+                <li>Fixes an issue where the volume change sound would be played twice when touchbar compatibility mode is enabled.</li>
+                <li>Fixes an issue where the activation notice would route to the wrong tab.</li>
+                <li>Fixes an issue where the progress bar in the Now Playing HUD would be shown twice.</li>
+                </ul>
+            ]]></description>
+            <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.3_104/MediaMate_v1.3-104.zip" length="4573698" type="application/octet-stream" sparkle:edSignature="TXYuHXd4DotyfEWdqK4BeYJq/dmGR4tqlEuIRvznjduZT1Dn/OxzuaB32H6BAg5OmhIhOmIe3RW6C0ExpcwwAw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.3_104/MediaMate104-99.delta" sparkle:deltaFrom="99" length="574646" type="application/octet-stream" sparkle:edSignature="JhF+ZxmyvD05+P2/9gSxXYm2b/4vxMLo1+uDMURVFU0srBnsen03LpWETR/1kZKsYEo0twbvOKcxlnijX0wLDQ=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.3_104/MediaMate104-93.delta" sparkle:deltaFrom="93" length="810970" type="application/octet-stream" sparkle:edSignature="FlOSuBMpSf0qza7IW8yOTIx6FCusaagLOPFpgzpC+rTkMSVknRPBLf9RN7s1gpuRVhWDisRL9xJwKPpMAytVAg=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.3_104/MediaMate104-88.delta" sparkle:deltaFrom="88" length="984222" type="application/octet-stream" sparkle:edSignature="+QEFJcB449cYwP234uquSYeVDtQxE9FSxhzY1vUxlOoKdsDp/Qc7cW6NIZIGYsT3bRC+8IWYCzg0eVtcKlD1Bw=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.3_104/MediaMate104-84.delta" sparkle:deltaFrom="84" length="993022" type="application/octet-stream" sparkle:edSignature="afP3X5viQg+luxf1mmVA31BmnNIXOlIl1BACXekKSQZHTZBY1VAYidshFrPduqK/XGM3O8mbek/f3orMnX7aAw=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.3_104/MediaMate104-82.delta" sparkle:deltaFrom="82" length="995210" type="application/octet-stream" sparkle:edSignature="m8x/8xfRxitfE0n/SKuIZ7jwXFjB4tynPia2Nu3AP59UtbwKAdTklcqx+oC+pxzZSLNKrOiCqXtllhP+mDOXAQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.2.1</title>
             <pubDate>Tue, 16 Aug 2022 17:51:30 +0200</pubDate>
             <sparkle:version>99</sparkle:version>
