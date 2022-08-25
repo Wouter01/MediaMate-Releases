@@ -3,6 +3,41 @@
     <channel>
         <title>MediaMate</title>
         <item>
+            <title>1.3.1</title>
+            <pubDate>Thu, 25 Aug 2022 18:43:43 +0200</pubDate>
+            <sparkle:version>110</sparkle:version>
+            <sparkle:shortVersionString>1.3.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2 id="new-features">New Features</h2>
+                <ul>
+                <li>Option to not show the Now Playing HUD when the media is paused.</li>
+                </ul>
+                <h2 id="improvements">Improvements</h2>
+                <ul>
+                <li>The close button on the Now Playing HUD will only be shown when needed. (e.g. not on the lockscreen)</li>
+                <li>The pause button color on the Now Playing HUD will match the accent color</li>
+                </ul>
+                <h2 id="bugfixes">Bugfixes</h2>
+                <ul>
+                <li>Fixes an issue where the HUDs would not reposition after a resolution change.</li>
+                <li>Fixes an issue where the Volume/Brightness HUD is to narrow on lower resolution displays.</li>
+                <li>Fixes &quot;On Keypress&quot; for Now Playing on Lockscreen</li>
+                <li>Fixes an issue where the allowlist for now playing would not work with Safari</li>
+                <li>Fixes an issue where the Volume HUD would incorrectly state the volume as muted.</li>
+                <li>Fixes an issue where the app would crash if Spotify played a local file.</li>
+                </ul>
+            ]]></description>
+            <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.3.1_110/MediaMate_v1.3.1-110.zip" length="4595922" type="application/octet-stream" sparkle:edSignature="kO/DNKITYfQlsbzpXrPb0FRzgJOD2P6nj5t+Q2nNnR3hpSKVNvli0YSfdf8YrC2O2f3xdrIegY1bVGu+crX6Dw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.3.1_110/MediaMate110-104.delta" sparkle:deltaFrom="104" length="386710" type="application/octet-stream" sparkle:edSignature="QaLw9coVXRvkfCnnur5laO9Q0P539/UZRjdrtuD/uF5rCtPXg69qfPp2XR1pt5sFgug0Y3rbiK9cFKssCUNHDA=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.3.1_110/MediaMate110-99.delta" sparkle:deltaFrom="99" length="673210" type="application/octet-stream" sparkle:edSignature="XeBMbcgrn8FMpAXOtZKu6ZvcTNmEVxjvQqW6eXRMx8beO45Gdv+047AHndWZAX59cmQvnxzqCfVn8mJki9idBw=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.3.1_110/MediaMate110-93.delta" sparkle:deltaFrom="93" length="855774" type="application/octet-stream" sparkle:edSignature="p97buhFkN67SStzcUJyf8JMtAt7nccr415zZgEFInfrPUkSUsgPoF+sA7I350kbq45x31bQMdOtqbMBNfzMQDg=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.3.1_110/MediaMate110-88.delta" sparkle:deltaFrom="88" length="1017834" type="application/octet-stream" sparkle:edSignature="8n0W7sVi0klYmTDMyBZCS0f8KEM8sXsq51MMDF3DcTFw/pTUfhhlAUPpDvK38VKVPMBmctuBwG5NCkvHocn4AA=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.3.1_110/MediaMate110-84.delta" sparkle:deltaFrom="84" length="1029006" type="application/octet-stream" sparkle:edSignature="i/M6uNFrPaqundHQ+4Anifo7nbMjsCJu+76EcumblicZdmte0gDhr8GYbgLo83ZVSqlEZIScCTzEMYqFouwlCw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.3</title>
             <pubDate>Thu, 18 Aug 2022 03:09:02 +0200</pubDate>
             <sparkle:version>104</sparkle:version>
