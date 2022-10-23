@@ -3,6 +3,29 @@
     <channel>
         <title>MediaMate</title>
         <item>
+            <title>1.3.2</title>
+            <pubDate>Sun, 23 Oct 2022 12:56:47 +0200</pubDate>
+            <sparkle:version>112</sparkle:version>
+            <sparkle:shortVersionString>1.3.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2 id="bugfixes">Bugfixes</h2>
+                <ul>
+                <li>Fixes an issue where the volume would not mute on low volume.</li>
+                <li>Fixes an issue where the Ventura settings layout would not be applied.</li>
+                <li>Fixes an issue where the HUDs would not be visible or chopped of in tryout mode.</li>
+                </ul>
+            ]]></description>
+            <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.3.2_112/MediaMate_v1.3.2-112.zip" length="4500015" type="application/octet-stream" sparkle:edSignature="dva6IZZmO89HW5bPrmSQNxTpLTeHjBEu1UcqVXDOX7f86p7wLS0Fp1DbE0NhIG6pEzZseaRNnrRS2JO8g8cLBg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.3.2_112/MediaMate112-110.delta" sparkle:deltaFrom="110" length="598834" type="application/octet-stream" sparkle:edSignature="8mnJBKgjtNMSNsWoRaLEH272SMZ7vKoBXmR31SCrwHPWX+ojNnDWf/p7xMC6oN/FOcxG/Gx4F7nOr6hjcaIUCw=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.3.2_112/MediaMate112-104.delta" sparkle:deltaFrom="104" length="715570" type="application/octet-stream" sparkle:edSignature="EGFdoaddbBPHUmWq6I9vkq9DQhJAQa1kNJfMDNAVnhMBgzuKbbB3FutNmWBl8Pmlvp4BNTxKi4TuSBphZh6FDQ=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.3.2_112/MediaMate112-99.delta" sparkle:deltaFrom="99" length="969222" type="application/octet-stream" sparkle:edSignature="NopqwR2A/Nz4MTC7sFsTXD/Im5Xt5eqqj9UrzZ007xRPDdopJdjJnxoS9yEUOm3Aay9lzwxSo7OwRSgU3IZLBQ=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.3.2_112/MediaMate112-93.delta" sparkle:deltaFrom="93" length="1131286" type="application/octet-stream" sparkle:edSignature="lkJ8dzVb9WJx0aZejGBJMhSt/mUcihCKNCnBRbRnD9CiGZl0fVdj4rXfJGdC7IB+gFTXfmroOEIElEM9IsIEAw=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.3.2_112/MediaMate112-88.delta" sparkle:deltaFrom="88" length="1276298" type="application/octet-stream" sparkle:edSignature="VEtruwptyUsYE6mUXutDna9ny3VoXcyR4sF+eaqJWg2JkX3qnMsV/FZ20R8wtxLQidVmjxk42Lc0vvOsYntOBw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.3.1</title>
             <pubDate>Thu, 25 Aug 2022 18:43:43 +0200</pubDate>
             <sparkle:version>110</sparkle:version>
