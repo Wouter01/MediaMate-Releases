@@ -3,6 +3,32 @@
     <channel>
         <title>MediaMate</title>
         <item>
+            <title>1.3.3</title>
+            <pubDate>Wed, 26 Oct 2022 23:59:26 +0200</pubDate>
+            <sparkle:version>113</sparkle:version>
+            <sparkle:shortVersionString>1.3.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2 id="new-features">New Features</h2>
+                <ul>
+                <li>Option to not show the Now Playing HUD when the playing application is the frontmost application.</li>
+                <li>Option to hide the album artwork for specific apps. (This will also stop MediaMate from trying to fetch one and showing a spinner)</li>
+                </ul>
+                <h2 id="improvements">Improvements</h2>
+                <ul>
+                <li>Architectural improvements of app.</li>
+                </ul>
+            ]]></description>
+            <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.3.3_113/MediaMate_v1.3.3-113.zip" length="4613377" type="application/octet-stream" sparkle:edSignature="fJac7AAjOKng5UGL1ahi3kXeYdzLomoAg4lXkvVPkdOpUjER4tC9XN7qMB4Tx2cnThs3lfapS7VXCa8GTRWVBg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.3.3_113/MediaMate113-112.delta" sparkle:deltaFrom="112" length="444662" type="application/octet-stream" sparkle:edSignature="ceaU4Y24CyJ3vljjcpTf+McM6aHLm46PMMaVgNtuxj90ByO1lTTeqIquKCnivUZoky4RGqE2cul+ookX+HV6DA=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.3.3_113/MediaMate113-110.delta" sparkle:deltaFrom="110" length="763266" type="application/octet-stream" sparkle:edSignature="t/n6ihDz4hH/SwN/1UybQCUkeuydvI+Wk44tid4aiGO5ilKapyB10QWgQRQANPHpmN8fU6+fbmpq3Wl0/zXeDw=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.3.3_113/MediaMate113-104.delta" sparkle:deltaFrom="104" length="840474" type="application/octet-stream" sparkle:edSignature="NEPi8ntUgg+mJ5eCO3RXaUgR9GVfdToBlnYdMOFYMehAJNeqvb7WnEzxj0ukoarRrwr7SqP1XWXSRcW1P77XCg=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.3.3_113/MediaMate113-99.delta" sparkle:deltaFrom="99" length="1089854" type="application/octet-stream" sparkle:edSignature="pe3ODk5dBlW9LPVpBCyQ3C1rE5eUXHRaOK9WLGONBKVbtXoTPhYiSB5WBXdU+lKPLdPsbXvc8nuMVnMD1uugBQ=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.3.3_113/MediaMate113-93.delta" sparkle:deltaFrom="93" length="1235534" type="application/octet-stream" sparkle:edSignature="YDLzm002vtjcnByyaf0UoQXxVAOXbpYNQB4Bc1fa4PBuZHBbYRCor1o0MLGc++OEs8yFBqxCs0ezsM1QAd6gAw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.3.2</title>
             <pubDate>Sun, 23 Oct 2022 12:56:47 +0200</pubDate>
             <sparkle:version>112</sparkle:version>
