@@ -3,6 +3,31 @@
     <channel>
         <title>MediaMate</title>
         <item>
+            <title>1.4</title>
+            <pubDate>Sat, 29 Oct 2022 20:35:47 +0200</pubDate>
+            <sparkle:version>119</sparkle:version>
+            <sparkle:shortVersionString>1.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2 id="new-features">New Features</h2>
+                <ul>
+                <li>Say hi to Focus Filters! Hide HUDs when you&#39;re in a certain focus, e.g. don&#39;t show the Now Playing HUD when you&#39;re in Do Not Disturb. (macOS 13.0+)</li>
+                </ul>
+                <h2 id="improvements">Improvements</h2>
+                <ul>
+                <li>Internal rewrite.</li>
+                </ul>
+            ]]></description>
+            <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.4_119/MediaMate_v1.4-119.zip" length="4672216" type="application/octet-stream" sparkle:edSignature="TeOIXNTHT9XBzQedmXaqeAYWA28DsrGra0/30lkkujE9R4fKv2EgKRpnHEjoX1WITmt7KSj3x7dSaVB08ZDKCA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.4_119/MediaMate119-113.delta" sparkle:deltaFrom="113" length="618838" type="application/octet-stream" sparkle:edSignature="OGI7gIOvh0WzKB8B4O01i6xxNWzHPoa1//VZsPS/5e4USrkwfVS06WZQZPXaA8ibChXvo+CTinHIrHvnNcXRAg=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.4_119/MediaMate119-112.delta" sparkle:deltaFrom="112" length="714562" type="application/octet-stream" sparkle:edSignature="Tz/mkcOJg13veVKnNCaYQ7uHDFbLXeLjrZrwoWG/iZFPilzhBQ+ZE5CcedT8dhaDrPgFMY1n5491i0S+qf/2BQ=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.4_119/MediaMate119-110.delta" sparkle:deltaFrom="110" length="996318" type="application/octet-stream" sparkle:edSignature="OEOm8tmuJ3TBPMJMxmYOpiBt/VVCwYYI7ZELqMFt/zAHDni3O11EDcFcH06LVEy7PHFM0+cY/eXgknzptXvYCQ=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.4_119/MediaMate119-104.delta" sparkle:deltaFrom="104" length="1042638" type="application/octet-stream" sparkle:edSignature="T23j/BQmE9xdLKM1uBg/rhwE6YriCDRtwehaz0IUtO9ssbk1zr79/lkDRRnl4zRmTjSxUIh92cschTKEJ5gAAw=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.4_119/MediaMate119-99.delta" sparkle:deltaFrom="99" length="1268410" type="application/octet-stream" sparkle:edSignature="4CZhmoChVqVAfqACAoZNIJB7o0sNtqSN5UcGEiHsGwfHJOiMaOdxlY5XXW5pp5OMuuY6vHhhhqfDbERKMcuNCg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.3.3</title>
             <pubDate>Wed, 26 Oct 2022 23:59:26 +0200</pubDate>
             <sparkle:version>113</sparkle:version>
