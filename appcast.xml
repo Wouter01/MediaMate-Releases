@@ -9,21 +9,14 @@
             <sparkle:shortVersionString>1.4.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
+                <h2 id="improvements">Improvements</h2>
+                <ul>
+                <li>Double-clicking to install the touchbar helper profile will now open the Profiles settings pane.</li>
+                </ul>
                 <h2 id="bugfixes">Bugfixes</h2>
                 <ul>
-                <li>Fixes an issue where the HUDs would be behind other windows on certain macs.</li>
+                <li>Fixes an issue where opening System Preferences would not show the correct pane on macOS Monterey.</li>
                 </ul>
-                <h1 id="previous">Previous Release</h1>
-                <h2 id="improvements">Improvements</h2>
-                <p>The keyboard shortcuts will now follow the standard macOS ones:</p>
-                <ul>
-                <li>⌥ + key will open the specific settings</li>
-                <li>⌥ + ⇧ + key will make more granular changes</li>
-                <li>⇧ + key makes a sound (Volume only)</li>
-                <li>⇧ + ⌘ + key will min/max</li>
-                <li>⌃ + brightness key + any of the above commands will apply to keyboard brightness.</li>
-                </ul>
-                <p>The previous customization of these controls has been removed due to the unneeded complexity.</p>
             ]]></description>
             <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.4.3_126/MediaMate_v1.4.3-126.zip" length="4622419" type="application/octet-stream" sparkle:edSignature="UmmQb/710SCAvyYCYGUndHPIN8S+VoMZSllMGNwZ9wMyhUt3EiD6KV9za8iJV5LeI1q6niaYQONfh/Vc1ezxCg=="/>
             <sparkle:deltas>
