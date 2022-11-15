@@ -3,6 +3,38 @@
     <channel>
         <title>MediaMate</title>
         <item>
+            <title>1.4.2</title>
+            <pubDate>Tue, 15 Nov 2022 13:49:58 +0100</pubDate>
+            <sparkle:version>124</sparkle:version>
+            <sparkle:shortVersionString>1.4.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2 id="bugfixes">Bugfixes</h2>
+                <ul>
+                <li>Fixes an issue where the HUDs would be behind other windows on certain macs.</li>
+                </ul>
+                <h1 id="previous">Previous Release</h1>
+                <h2 id="improvements">Improvements</h2>
+                <p>The keyboard shortcuts will now follow the standard macOS ones:</p>
+                <ul>
+                <li>⌥ + key will open the specific settings</li>
+                <li>⌥ + ⇧ + key will make more granular changes</li>
+                <li>⇧ + key makes a sound (Volume only)</li>
+                <li>⇧ + ⌘ + key will min/max</li>
+                <li>⌃ + brightness key + any of the above commands will apply to keyboard brightness.</li>
+                </ul>
+                <p>The previous customization of these controls has been removed due to the unneeded complexity.</p>
+            ]]></description>
+            <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.4.2_124/MediaMate_v1.4.2-124.zip" length="4622844" type="application/octet-stream" sparkle:edSignature="HBFVx0YdutSZtV2VsyumTQ0HE9Li+VQIQHjxhS095mkNmz3ap6o18owBBYsihBlboegKn3/3u4CTrENwv5YSDQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.4.2_124/MediaMate124-122.delta" sparkle:deltaFrom="122" length="154842" type="application/octet-stream" sparkle:edSignature="jRcK2M4flWgG6C9bzqxx7qaDNzlzoT5uM7yV6CdIuDCoaYaQl6mpp5JP82gZRY0tIxbQU+7ta0BhvVZ0DDCUAQ=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.4.2_124/MediaMate124-119.delta" sparkle:deltaFrom="119" length="570714" type="application/octet-stream" sparkle:edSignature="2AsvuPdHqIUTZVo31q5s9jg6HhJ0gjiPXlzr1/uESdqEEmM6CdBGQDgWucp2Npmt6s1IZGFnC70vdg/eyuWBCA=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.4.2_124/MediaMate124-113.delta" sparkle:deltaFrom="113" length="686398" type="application/octet-stream" sparkle:edSignature="nSDvf1KQhFV2tm6YAOhks86QuzKg2gtUyU+CXhRxBoSXu5/u8iPwEWBTPWeLfpXWXT8Ks9crdzcW8P0KFMEgCg=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.4.2_124/MediaMate124-112.delta" sparkle:deltaFrom="112" length="787966" type="application/octet-stream" sparkle:edSignature="n6kVQA0+44cRQXuQEWH+5kchffR73vTIPZOyS3GZKQeGXphJuLV5f2rcYWE6SEmEVQJ9+PEittiz6o89grZwDw=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.4.2_124/MediaMate124-110.delta" sparkle:deltaFrom="110" length="1044442" type="application/octet-stream" sparkle:edSignature="AhsRQQGK9y0JGvxZ91Z9ZNnEZniM61YXyPSLo4c8DMA+QOy8ej2bMLJMDPPCIjta9eBmz1SUJNaRkIsEBWAdBw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.4.1</title>
             <pubDate>Tue, 15 Nov 2022 10:27:31 +0100</pubDate>
             <sparkle:version>122</sparkle:version>
