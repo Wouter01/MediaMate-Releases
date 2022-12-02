@@ -3,6 +3,32 @@
     <channel>
         <title>MediaMate</title>
         <item>
+            <title>1.4.4</title>
+            <pubDate>Fri, 02 Dec 2022 12:47:00 +0100</pubDate>
+            <sparkle:version>127</sparkle:version>
+            <sparkle:shortVersionString>1.4.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2 id="improvements">Improvements</h2>
+                <ul>
+                <li>The settings window will shake when an incorrect license key is provided.</li>
+                </ul>
+                <h2 id="bugfixes">Bugfixes</h2>
+                <ul>
+                <li>Fixed an issue where external app mode wouldn&#39;t work for volume.</li>
+                <li>Fixed duplicated title of attached files when submitting feedback.</li>
+                </ul>
+            ]]></description>
+            <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.4.4_127/MediaMate_v1.4.4-127.zip" length="4674868" type="application/octet-stream" sparkle:edSignature="JEjo+6NHCqBEVuPMVhycbhy/NCvjM6Qk74v0fuar1S6theSDRiyvK7YWRRqPbWq9FTRyBv0U1GdqjlupY8vuCQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.4.4_127/MediaMate127-126.delta" sparkle:deltaFrom="126" length="402862" type="application/octet-stream" sparkle:edSignature="3Q0k8dSUk1S2lMbJrGTPivrBwdC3s+zIwheLh0eS0RXYIoSbexGqUcVt8um1bgj5uCaDbilv4aWl91kemAfaCQ=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.4.4_127/MediaMate127-124.delta" sparkle:deltaFrom="124" length="407902" type="application/octet-stream" sparkle:edSignature="lDYJliMyKY55Ai0Eagt4XZO9yDbgfCNzz5+rPPc2YH6gOo7v14XmFkx2AcdCmF2bO44VHweBumfttZtBjzyEBg=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.4.4_127/MediaMate127-122.delta" sparkle:deltaFrom="122" length="411082" type="application/octet-stream" sparkle:edSignature="oSImS01KSWrqdWez/ze4rxvsscbWeItLzjDLBgQEfHigHWZHy9RbXIhH9YKfZ8xdFQPtA08rAOu8dUykf6HAAQ=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.4.4_127/MediaMate127-119.delta" sparkle:deltaFrom="119" length="642702" type="application/octet-stream" sparkle:edSignature="TTUNZ+g7msgbo42a9Hy0ObhXPDzTta1zRKmXRhxceuiEFzJPo8pUw92i3uZ7o1NoEWDb21DQlnMWv+tTMWHVDw=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.4.4_127/MediaMate127-113.delta" sparkle:deltaFrom="113" length="756314" type="application/octet-stream" sparkle:edSignature="+Az72wCxeqcyu61F/wwqiTRjXedwA5VNd6shPSkdxWYjQrIPvmVpCLOpkYbQ4XTbQgPoCxfh45rBcVquQDIkBQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.4.3</title>
             <pubDate>Tue, 15 Nov 2022 19:34:14 +0100</pubDate>
             <sparkle:version>126</sparkle:version>
