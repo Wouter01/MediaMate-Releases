@@ -3,6 +3,38 @@
     <channel>
         <title>MediaMate</title>
         <item>
+            <title>1.4.5</title>
+            <pubDate>Tue, 04 Apr 2023 02:26:23 +0200</pubDate>
+            <sparkle:version>130</sparkle:version>
+            <sparkle:shortVersionString>1.4.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2 id="important-note-">Important Note:</h2>
+                <p>This is probably the last version that supports macOS Monterey. Unless serious bugs pop up, this macOS version won&#39;t receive updates for MediaMate anymore.</p>
+                <h2 id="new-features">New Features</h2>
+                <ul>
+                <li>Added &quot;Reveal on Play&quot; and &quot;Reveal on Media Change&quot; options to the Now Playing HUD. These allow further control for when the HUD should pop up.</li>
+                <li>Preparation for V2 release.</li>
+                </ul>
+                <h2 id="improvements">Improvements</h2>
+                <ul>
+                <li>Clarified the &quot;Reveal when playing app is active&quot; Setting.</li>
+                </ul>
+                <h2 id="bugfixes">Bugfixes</h2>
+                <ul>
+                <li>Fixed an issue where &quot;Reveal on Menubar click&quot; would not work properly when &quot;Reveal on Pause&quot; was disabled.</li>
+                </ul>
+            ]]></description>
+            <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.4.5_130/MediaMate_v1.4.5-130.zip" length="4370363" type="application/octet-stream" sparkle:edSignature="UR7hHUUXwcGMv66iM6R7FffET/XOM3M+zkFF9NqQnmv5WrZOH6nvnGewNISYjG0MGh1Vnjg3e7zaHhb91PtPCQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.4.5_130/MediaMate130-127.delta" sparkle:deltaFrom="127" length="1352150" type="application/octet-stream" sparkle:edSignature="HPavDuMrCz3+UyYGBhR+K45rlKvE9MFm5Fy6mf5cyyZnkc5WSHfQhB232NMeL2ubwMpPcWDMgRECYBFGzACYAA=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.4.5_130/MediaMate130-126.delta" sparkle:deltaFrom="126" length="1354950" type="application/octet-stream" sparkle:edSignature="umgoDJPsIcKaQfaf+9EWy36pQZ4dLmoYSVAzNNk1EcJXUBf7so8sghOQ4Ue8M4SLDVvqNOCSYzVt/srGP7c8Cg=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.4.5_130/MediaMate130-124.delta" sparkle:deltaFrom="124" length="1356210" type="application/octet-stream" sparkle:edSignature="qJXGs3lm2vUjqUR98A5p1fm39xxqtW1zHPptmCqHsau7hmtAr6pmiYPbEvRCuBUzGypcsFmPmZ6Y5bU2GFWKCw=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.4.5_130/MediaMate130-122.delta" sparkle:deltaFrom="122" length="1355806" type="application/octet-stream" sparkle:edSignature="SaZ+REhC8GIOAjyMzkrBpXy233rfgHgHsUxQOQS6SKyMLFDleJxhPQWG4ogXpCEPjrFUuKpCz7AB4tej/L0gDw=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.4.5_130/MediaMate130-119.delta" sparkle:deltaFrom="119" length="1470218" type="application/octet-stream" sparkle:edSignature="nYRbcIN6Za9x5dGyllI8mQjTyYuH3T29vvlo0jpv/u/APLWGFJgoDT6YfmLT3EB+TPehIZMy41GmnCEOl8QUBw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.4.4</title>
             <pubDate>Fri, 02 Dec 2022 12:47:00 +0100</pubDate>
             <sparkle:version>127</sparkle:version>
