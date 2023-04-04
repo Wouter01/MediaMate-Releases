@@ -23,6 +23,7 @@
                 <h2 id="bugfixes">Bugfixes</h2>
                 <ul>
                 <li>Fixed an issue where &quot;Reveal on Menubar click&quot; would not work properly when &quot;Reveal on Pause&quot; was disabled.</li>
+                <li>Fixed a regression where the volume icon would not animate when disabled.</li>
                 </ul>
             ]]></description>
             <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v1.4.5_130/MediaMate_v1.4.5-130.zip" length="4370363" type="application/octet-stream" sparkle:edSignature="UR7hHUUXwcGMv66iM6R7FffET/XOM3M+zkFF9NqQnmv5WrZOH6nvnGewNISYjG0MGh1Vnjg3e7zaHhb91PtPCQ=="/>
