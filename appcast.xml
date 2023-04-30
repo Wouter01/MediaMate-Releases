@@ -3,6 +3,69 @@
     <channel>
         <title>MediaMate</title>
         <item>
+            <title>2.0.3</title>
+            <pubDate>Sun, 30 Apr 2023 04:37:43 +0200</pubDate>
+            <sparkle:version>176</sparkle:version>
+            <sparkle:shortVersionString>2.0.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h4 id="v2-0-3">V2.0.3</h4>
+                <ul>
+                <li>Fixed an issue where volume would play when it was set to zero.</li>
+                </ul>
+                <h4 id="v2-0-2">V2.0.2</h4>
+                <ul>
+                <li>Version 2 had an issue where adjusting the volume with the Touch Bar would lag a lot. This should now be resolved. </li>
+                </ul>
+                <h4 id="v2-0-1">V2.0.1</h4>
+                <ul>
+                <li>Fixed an issue where the app would crash if dynamic width setting is modified</li>
+                </ul>
+                <h2 id="v2-0-0">V2.0.0</h2>
+                <p>This marks Version 2 of MediaMate, with a bunch of improvements to the core of the app, along with some new features. I hope you like it!</p>
+                <p>Good news: Monterey still supported 👀</p>
+                <h2 id="new-features">New Features</h2>
+                <ul>
+                <li>Themes: Set your preferred style for the Volume, Display and Keyboard HUD. Choose between Classic (from v1) and a new iOS-styled theme!</li>
+                <li>Reworked &amp; Simplified Settings: The amount of settings has been reduced by a great amount, while still providing customization for those who want it.</li>
+                <li>Change the volume and brightness by click-dragging or two finger dragging on the visible HUD (iOS Theme only)</li>
+                <li>Touchbar &amp; External app compatibility mode got a boost: it is more reliable and no custom profile is needed anymore.</li>
+                <li>A new, improved Demo Mode has landed, which allows longer testing periods.</li>
+                <li>The old Media Progress Bar has been replaced  by a fancy new one, which resembles the new iOS 16 look.</li>
+                <li>Touch Bar detection on first launch of the app.</li>
+                </ul>
+                <h2 id="improvements">Improvements</h2>
+                <ul>
+                <li>Reworked icons for Volume, Brightness and Keyboard Brightness to more closely match the built-in ones, while also improving their animations.</li>
+                <li>All HUDs are now shown on the lock screen by default.</li>
+                <li>The Classic Theme has a better size on large displays.</li>
+                <li>The HUD preview will now hide when the settings window isn&#39;t in focus.</li>
+                <li>Alternate looks for HUDs, such as placing them at the top or the side, have a more refined look.</li>
+                <li>The Brightness HUD won&#39;t be triggered anymore by auto-brightness adjusting the display.</li>
+                <li>The HUDs will disappear faster.</li>
+                <li>App Size is 14% smaller (compared to 1.4.4)</li>
+                <li>Improved Memory Management</li>
+                </ul>
+                <h2 id="bugfixes">Bugfixes</h2>
+                <ul>
+                <li>Fixed an issue where some system settings would be reset after setting the volume sound in MediaMate settings.</li>
+                <li>Overshoot works properly for keyboard brightness.</li>
+                <li>Fixed an issue where the keyboard brightness icon could be displayed wrongly.</li>
+                <li>Fixed an issue where the settings window would shake on first launch.</li>
+                <li>Fixed an issue where empty menubar items could appear on Ventura.</li>
+                <li>Fixed some UI glitches.</li>
+                </ul>
+            ]]></description>
+            <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.0.3_176/MediaMate_v2.0.3-176.zip" length="3732676" type="application/octet-stream" sparkle:edSignature="yiU08SbezlG1aSYF2eiTfkMyqDJy0T19j0qLNgu9yTxrkglVWsO6gmaGHtd/st8TYmuC/2OT26c9MqKFCbPmBA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.0.3_176/MediaMate176-173.delta" sparkle:deltaFrom="173" length="414118" type="application/octet-stream" sparkle:edSignature="mbSLmTBMQ9LCiCnZefVTnKkfitD2auaq83HZkNkMMLOUTviKPuY4/T8S5P3quXNXBNuNSPf1RTQpDimthOrsAw=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.0.3_176/MediaMate176-169.delta" sparkle:deltaFrom="169" length="568498" type="application/octet-stream" sparkle:edSignature="jMkIblNbOHYe5XF60MCRQO3m7YyxiOnxDya8k1ZPKmyz2tZWx094cQoL2/XAC6jMCU3+uTtPuYUewTk4H8zCDw=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.0.3_176/MediaMate176-167.delta" sparkle:deltaFrom="167" length="578998" type="application/octet-stream" sparkle:edSignature="Dps7uOpYIxhI9D1HRvwGiecj0NEj8uWEyXkswXH5suxtlEbC2CJa9pPo0MS/pVSAfbS+HcuSZbwFpBj1UMJ8AA=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.0.3_176/MediaMate176-130.delta" sparkle:deltaFrom="130" length="1140350" type="application/octet-stream" sparkle:edSignature="LwT168wESJ0IqQc/G1S0TbqYvFN4yEzxU406u2RjzTZYP0nTR2zeSgkYv9pSksuD7mm4BYh0RvDyx9f7M1PLDg=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.0.3_176/MediaMate176-127.delta" sparkle:deltaFrom="127" length="1803614" type="application/octet-stream" sparkle:edSignature="ekByKFPHY7xMdGU/jyHxLJ0i6x9JBpDKK01c0rvQkKD328fgTLWQnw+OA/19uI9AJTbtZb+njvFlPi4kPDRvAw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.0.2</title>
             <pubDate>Sat, 29 Apr 2023 23:28:41 +0200</pubDate>
             <sparkle:version>173</sparkle:version>
