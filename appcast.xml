@@ -3,6 +3,74 @@
     <channel>
         <title>MediaMate</title>
         <item>
+            <title>2.0.4</title>
+            <pubDate>Thu, 04 May 2023 02:33:51 +0200</pubDate>
+            <sparkle:version>178</sparkle:version>
+            <sparkle:shortVersionString>2.0.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h4 id="v2-0-4">v2.0.4</h4>
+                <ul>
+                <li>Fixed an issue where the small HUDs could overlap</li>
+                <li>Fixed an issue where the Now Playing HUD would not appear after clicking the menu bar icon (if the setting was enabled).</li>
+                </ul>
+                <h4 id="v2-0-3">V2.0.3</h4>
+                <ul>
+                <li>Fixed an issue where volume would play when it was set to zero.</li>
+                </ul>
+                <h4 id="v2-0-2">V2.0.2</h4>
+                <ul>
+                <li>Version 2 had an issue where adjusting the volume with the Touch Bar would lag a lot. This should now be resolved. </li>
+                </ul>
+                <h4 id="v2-0-1">V2.0.1</h4>
+                <ul>
+                <li>Fixed an issue where the app would crash if dynamic width setting is modified</li>
+                </ul>
+                <h2 id="v2-0-0">V2.0.0</h2>
+                <p>This marks Version 2 of MediaMate, with a bunch of improvements to the core of the app, along with some new features. I hope you like it!</p>
+                <p>Good news: Monterey still supported 👀</p>
+                <h2 id="new-features">New Features</h2>
+                <ul>
+                <li>Themes: Set your preferred style for the Volume, Display and Keyboard HUD. Choose between Classic (from v1) and a new iOS-styled theme!</li>
+                <li>Reworked &amp; Simplified Settings: The amount of settings has been reduced by a great amount, while still providing customization for those who want it.</li>
+                <li>Change the volume and brightness by click-dragging or two finger dragging on the visible HUD (iOS Theme only)</li>
+                <li>Touchbar &amp; External app compatibility mode got a boost: it is more reliable and no custom profile is needed anymore.</li>
+                <li>A new, improved Demo Mode has landed, which allows longer testing periods.</li>
+                <li>The old Media Progress Bar has been replaced  by a fancy new one, which resembles the new iOS 16 look.</li>
+                <li>Touch Bar detection on first launch of the app.</li>
+                </ul>
+                <h2 id="improvements">Improvements</h2>
+                <ul>
+                <li>Reworked icons for Volume, Brightness and Keyboard Brightness to more closely match the built-in ones, while also improving their animations.</li>
+                <li>All HUDs are now shown on the lock screen by default.</li>
+                <li>The Classic Theme has a better size on large displays.</li>
+                <li>The HUD preview will now hide when the settings window isn&#39;t in focus.</li>
+                <li>Alternate looks for HUDs, such as placing them at the top or the side, have a more refined look.</li>
+                <li>The Brightness HUD won&#39;t be triggered anymore by auto-brightness adjusting the display.</li>
+                <li>The HUDs will disappear faster.</li>
+                <li>App Size is 14% smaller (compared to 1.4.4)</li>
+                <li>Improved Memory Management</li>
+                </ul>
+                <h2 id="bugfixes">Bugfixes</h2>
+                <ul>
+                <li>Fixed an issue where some system settings would be reset after setting the volume sound in MediaMate settings.</li>
+                <li>Overshoot works properly for keyboard brightness.</li>
+                <li>Fixed an issue where the keyboard brightness icon could be displayed wrongly.</li>
+                <li>Fixed an issue where the settings window would shake on first launch.</li>
+                <li>Fixed an issue where empty menubar items could appear on Ventura.</li>
+                <li>Fixed some UI glitches.</li>
+                </ul>
+            ]]></description>
+            <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.0.4_178/MediaMate_v2.0.4-178.zip" length="3752962" type="application/octet-stream" sparkle:edSignature="u5es62bxyAnMIT+KtOznGTzxmmUk4Y5f2YVGl/ZQf7vYwDt5lncrkYVU5EhXfnI+RoBRljVJgGdhLL7djNr9Cg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.0.4_178/MediaMate178-176.delta" sparkle:deltaFrom="176" length="440826" type="application/octet-stream" sparkle:edSignature="epzfBPhWXCnH2c1YYctSutYNs2E+vZ66IYvjmS2JsmoMRhnADFvOaAe5QxZWtyBt2d0//7x+dwyofotWj5SiCw=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.0.4_178/MediaMate178-173.delta" sparkle:deltaFrom="173" length="525898" type="application/octet-stream" sparkle:edSignature="CYL530HSgryS35zK099ir89ZFNGwqwtrB0r9r1LxExko8M3Owa7fkywXj9RY1COtoguc1lqyra3Og6ZGAs3ECQ=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.0.4_178/MediaMate178-169.delta" sparkle:deltaFrom="169" length="674126" type="application/octet-stream" sparkle:edSignature="cjhactip3KWeYWdhvgGZ3K69QH8sRwLIYexqC9YtSo0AY//EhnDPm+B/lZoV0olWBEvr/LQMXY4yEPCFLuq3Dg=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.0.4_178/MediaMate178-167.delta" sparkle:deltaFrom="167" length="679642" type="application/octet-stream" sparkle:edSignature="4S++i0oUzPhllFXQOyr5+owHFc7sAXiUv8lLKm+JsgWKuMtBFseiU7moRa3mhiQp66WdqccOD+jPlZ/FeS3ZDA=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.0.4_178/MediaMate178-130.delta" sparkle:deltaFrom="130" length="1162046" type="application/octet-stream" sparkle:edSignature="t03AGJXj7/eq06ghJTntvX4fLx5AAigin58VBP/BJHgA9Obvvj3YvF75tPoV7R+uNYLKFPJLBxSXaTd9rb7YBw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.0.3</title>
             <pubDate>Sun, 30 Apr 2023 04:37:43 +0200</pubDate>
             <sparkle:version>176</sparkle:version>
