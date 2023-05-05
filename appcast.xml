@@ -8,6 +8,13 @@
             <sparkle:version>179</sparkle:version>
             <sparkle:shortVersionString>2.1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h4 id="v2-1-0">v2.1.0</h4>
+                <ul>
+                <li>New: Audio outputs are visible on the Audio HUD! Compatible with AirPods, most Beats devices, Bluetooth, and more!</li>
+                <li>Fixed an issue where some HUDs would not appear if switched too fast.</li>
+                </ul>
+            ]]></description>
             <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.1.0_179/MediaMate_v2.1.0-179.zip" length="3804053" type="application/octet-stream" sparkle:edSignature="72jxE6N9vOzXxfjkf2FBfAZ77j/IOXL02lfO7w+cutJLOg3MNYNz+Hjq3AXd0VZEhpHKJroGJ4BXMc0eKyr8DQ=="/>
             <sparkle:deltas>
                 <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.1.0_179/MediaMate179-178.delta" sparkle:deltaFrom="178" length="443370" type="application/octet-stream" sparkle:edSignature="jwn0v2amioKYKb5LDSIaUPr9dtEJHVhYmTLXpW8Ahiay8w5s5l5QZj82xo7wBWeLGstmB1O6P2EA8fsx2J55Cg=="/>
