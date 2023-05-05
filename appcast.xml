@@ -3,6 +3,21 @@
     <channel>
         <title>MediaMate</title>
         <item>
+            <title>2.1.0</title>
+            <pubDate>Fri, 05 May 2023 01:52:08 +0200</pubDate>
+            <sparkle:version>179</sparkle:version>
+            <sparkle:shortVersionString>2.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.1.0_179/MediaMate_v2.1.0-179.zip" length="3804053" type="application/octet-stream" sparkle:edSignature="72jxE6N9vOzXxfjkf2FBfAZ77j/IOXL02lfO7w+cutJLOg3MNYNz+Hjq3AXd0VZEhpHKJroGJ4BXMc0eKyr8DQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.1.0_179/MediaMate179-178.delta" sparkle:deltaFrom="178" length="443370" type="application/octet-stream" sparkle:edSignature="jwn0v2amioKYKb5LDSIaUPr9dtEJHVhYmTLXpW8Ahiay8w5s5l5QZj82xo7wBWeLGstmB1O6P2EA8fsx2J55Cg=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.1.0_179/MediaMate179-176.delta" sparkle:deltaFrom="176" length="576346" type="application/octet-stream" sparkle:edSignature="PPZqFtvXX4T+UfjdjYXCLYIzN6AFtQ+kI0Fa9MvATqRG5a41KEhTIRmAj7MKGr2dNYCEPOHEfTrjyR1BTMqiDg=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.1.0_179/MediaMate179-173.delta" sparkle:deltaFrom="173" length="631010" type="application/octet-stream" sparkle:edSignature="n9OYqpVlZQNRBrvQ5qe8prwTwKLxsSckhLbpq5vZmrLeIOiCvfVZW2DLZdjY4BMFYd15d6S67/flBJWAO9+5BA=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.1.0_179/MediaMate179-169.delta" sparkle:deltaFrom="169" length="779110" type="application/octet-stream" sparkle:edSignature="6H4m7vIaNrJx//a64LpoX7xoMwBw/RNFCUegTzu51SzB0S2KuqM5EuLg5bjkASbWPGd+GTJVPSnKuBXbmc+IDg=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.1.0_179/MediaMate179-167.delta" sparkle:deltaFrom="167" length="783910" type="application/octet-stream" sparkle:edSignature="pioa/8HFnGPm0Fe5Tmt9gIYuB8/54NsuRRVmZ1QuxAD1rgIlnmfPcYfqa+9I2vmVWkMYaA9Uxifb7oa8PDq1CA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.0.4</title>
             <pubDate>Thu, 04 May 2023 02:33:51 +0200</pubDate>
             <sparkle:version>178</sparkle:version>
