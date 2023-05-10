@@ -3,6 +3,34 @@
     <channel>
         <title>MediaMate</title>
         <item>
+            <title>2.1.1</title>
+            <pubDate>Wed, 10 May 2023 21:23:31 +0200</pubDate>
+            <sparkle:version>181</sparkle:version>
+            <sparkle:shortVersionString>2.1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h4 id="v2-1-1">v2.1.1</h4>
+                <ul>
+                <li>Added adjusting of inset of compact HUDs.</li>
+                <li>Fixed issues with license activation.</li>
+                <li>Quicklook is excluded from the Now Playing HUD by default.</li>
+                </ul>
+                <h4 id="v2-1-0">v2.1.0</h4>
+                <ul>
+                <li>New: Audio outputs are visible on the Audio HUD! Compatible with AirPods, most Beats devices, Bluetooth, and more!</li>
+                <li>Fixed an issue where some HUDs would not appear if switched too fast.</li>
+                </ul>
+            ]]></description>
+            <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.1.1_181/MediaMate_v2.1.1-181.zip" length="3813603" type="application/octet-stream" sparkle:edSignature="2H/OsoGqD7JGHYHjSxGrjsV8DdpzGXQEFA4H9WZRms0pmd4L4QiEj5/JxL/qKRfyQDGjd1vIPXzArP3r9GlgCw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.1.1_181/MediaMate181-179.delta" sparkle:deltaFrom="179" length="352622" type="application/octet-stream" sparkle:edSignature="cbVaXfMYAzdHALIILLDaDbeXtm4sT9SGwcTk64csjwU0zOw6p8XJDQOq44oV8tlngvIpWjXYnlJUrCAp9EVQAw=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.1.1_181/MediaMate181-178.delta" sparkle:deltaFrom="178" length="489074" type="application/octet-stream" sparkle:edSignature="iDDI6sScHpp5gd36UFQM2+9PtKz+ZzZyWdBodGmSec6BuHRDWWbxxZwkGvfUOh9EuV8vIUMe1aNsb1r0AtuvAA=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.1.1_181/MediaMate181-176.delta" sparkle:deltaFrom="176" length="606954" type="application/octet-stream" sparkle:edSignature="e4rTnFCG0LfoBXuD8FvicwjDwH/HCl2T+PF9SJaybXdQdPxmnB7w01JuNp6JiSO6lzKv41pnTg52Sr7emtswAA=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.1.1_181/MediaMate181-173.delta" sparkle:deltaFrom="173" length="661886" type="application/octet-stream" sparkle:edSignature="UXyHyL2K2JS0EuThjtdLhS4K0jqAwQWRGyhLmsgQOeD5E1q34GWCovnmO3cyPz4UiSihlETsV5J1p531TpOeDA=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.1.1_181/MediaMate181-169.delta" sparkle:deltaFrom="169" length="810390" type="application/octet-stream" sparkle:edSignature="2Jh+47xHKMnvxGy8ZLdeMAE9nW0YsR/tLA3fz2WjA2362udclbhhNCRAlR5J3lH+6fFiGTGUFN0Zk3qUwIy5Cg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.1.0</title>
             <pubDate>Fri, 05 May 2023 01:52:08 +0200</pubDate>
             <sparkle:version>179</sparkle:version>
