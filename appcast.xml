@@ -3,6 +3,50 @@
     <channel>
         <title>MediaMate</title>
         <item>
+            <title>2.2</title>
+            <pubDate>Sat, 19 Aug 2023 22:47:54 +0200</pubDate>
+            <sparkle:version>188</sparkle:version>
+            <sparkle:shortVersionString>2.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2 id="v2-2">v2.2</h2>
+                <h4 id="new-features">New Features</h4>
+                <ul>
+                <li>New Now Playing HUD Style! The new style expands a macbook&#39;s notch to show media details. (macOS 13.0+, only for displays with notch)</li>
+                <li>Hide track title extras (everything between parentheses and brackets) for a cleaner look of the Now Playing HUD (macOS 13.0+)</li>
+                <li>Enhanced support for Lunar: MediaMate will now communicate directly with Lunar. This comes with support for sub-zero dimming, XDR, and the brightness HUD for multiple displays. Volume HUD coming in a later update. Note that some features may require an active Lunar license.</li>
+                <li>Extra controls for expanded Now Playing HUD: Shuffle, Repeat, + / - 15s. Note that these may not work properly for all apps</li>
+                </ul>
+                <h4 id="enhancements">Enhancements</h4>
+                <ul>
+                <li>Pressing &amp; holding the Now Playing HUD shortcut will keep the HUD visible until released</li>
+                <li>New transition for small HUDs: Grow from edge, fade out</li>
+                <li>Granular step size now defaults to the macOS default</li>
+                <li>Improved detection of the current active screen</li>
+                <li>Improved hover detection for Now Playing HUD</li>
+                <li>When nothing is played, the Now Playing HUD will be hidden instead of displaying &quot;Unknown&quot; </li>
+                <li>Add audio output to theme preview</li>
+                <li>Slightly tweaked animations</li>
+                <li>Reduced glitches while switching screens</li>
+                <li>Reduced memory usage when Now Playing HUD is disabled</li>
+                <li>Improved general app stability</li>
+                </ul>
+                <h4 id="bugfixes">Bugfixes</h4>
+                <ul>
+                <li>Launch at login at first launch is fixed</li>
+                <li>Fixed an issue where the Now Playing HUD would pop up when it was not needed.</li>
+                </ul>
+            ]]></description>
+            <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.2_188/MediaMate_v2.2-188.zip" length="5273812" type="application/octet-stream" sparkle:edSignature="+HC/F5e2TKoTAG9+9C6Npyu8Bd9BxUVDaPcpPHORPB6kRKbGkDVK004YqYL6+AeVHU4wcD7EWZy4N1olG5W2AQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.2_188/MediaMate188-181.delta" sparkle:deltaFrom="181" length="2570694" type="application/octet-stream" sparkle:edSignature="8JD0jtDvVeaxhy0sc94y3Ro5zWzGUYLP0n2Pk1RdprdYfW8Ed4htUUjhs9TzT11ybLRlfqY2WenCiAu+sUKMDw=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.2_188/MediaMate188-179.delta" sparkle:deltaFrom="179" length="2581146" type="application/octet-stream" sparkle:edSignature="gQ93IuNK+Rii8gtff5+/awiOF5GB+vCtXr3I8e1dsM0t/9p3rrpfDHymwe+GHgjjEq9ZnckXo0oMehx0dIX4AQ=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.2_188/MediaMate188-178.delta" sparkle:deltaFrom="178" length="2603330" type="application/octet-stream" sparkle:edSignature="n+IKxUFEGGGK1E0VN13wLnXXIMQsjEMTKF30Ubz5+PkMy2wd3zyvkb+3AkgwRuV4p7FH7mW/qBnwj0wTSeVdBw=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.2_188/MediaMate188-176.delta" sparkle:deltaFrom="176" length="2629354" type="application/octet-stream" sparkle:edSignature="lUjj1O6M/mlkFPo5HoPj1GDa0Kwy3nFj2WpeoPTMw6EQq1aftMpDCYi33xAd/WiCf5ZNTfgNOVjk6WYa44tODQ=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.2_188/MediaMate188-173.delta" sparkle:deltaFrom="173" length="2644454" type="application/octet-stream" sparkle:edSignature="tJjDqUnWBygRNN9V2T014i+F9+9XPce4LJMLxOi4FbTa175TVQsyhVVtMLoH0KVzGfEpjnXPxA37o+CZjV1WBA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.1.1</title>
             <pubDate>Wed, 10 May 2023 21:23:31 +0200</pubDate>
             <sparkle:version>181</sparkle:version>
