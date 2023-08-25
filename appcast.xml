@@ -3,6 +3,68 @@
     <channel>
         <title>MediaMate</title>
         <item>
+            <title>2.2.3</title>
+            <pubDate>Fri, 25 Aug 2023 18:43:43 +0200</pubDate>
+            <sparkle:version>194</sparkle:version>
+            <sparkle:shortVersionString>2.2.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3 id="v2-2-3">v2.2.3</h3>
+                <ul>
+                <li>Fixed an issue where the now playing HUD would not show when the top edge of the notch was clicked</li>
+                <li>Fixed an issue where the now playing HUD would show on the Lock Screen when paused</li>
+                <li>Fixed an issue where the external app support mode would show the system HUD</li>
+                <li>Clarified the usage of system and lunar mode in the advanced tab<h3 id="v2-2-2">V2.2.2</h3>
+                </li>
+                <li>Fixed an issue where the Now Playing HUD would show up when clicked on a display above it<h3 id="v2-2-1">V2.2.1</h3>
+                <h4 id="new-features">New Features</h4>
+                </li>
+                <li>Show or hide the Now Playing HUD by clicking inside the notch<h4 id="bugfixes">Bugfixes</h4>
+                </li>
+                <li>Fixed an issue where the Now Playing HUD would be displayed incorrectly if a fixed width was set</li>
+                <li>Fixed the incorrect colour of the play button in the Now Playing HUD<h4 id="enhancements">Enhancements</h4>
+                </li>
+                <li>Clarified the minimum required version of Lunar</li>
+                <li>Clarified why accessibility settings are needed</li>
+                <li>Clarified which settings are available for the Notch mode for Now Playing HUD</li>
+                <li>Added missing acknowledgements<h2 id="v2-2">v2.2</h2>
+                <h4 id="new-features">New Features</h4>
+                </li>
+                <li>New Now Playing HUD Style! The new style expands a macbook&#39;s notch to show media details. (macOS 13.0+, only for displays with notch)</li>
+                <li>Hide track title extras (everything between parentheses and brackets) for a cleaner look of the Now Playing HUD (macOS 13.0+)</li>
+                <li>Enhanced support for Lunar: MediaMate will now communicate directly with Lunar. This comes with support for sub-zero dimming, XDR, and the brightness HUD for multiple displays. Volume HUD coming in a later update. Note that some features may require an active Lunar license.</li>
+                <li>Extra controls for expanded Now Playing HUD: Shuffle, Repeat, + / - 15s. Note that these may not work properly for all apps</li>
+                </ul>
+                <h4 id="enhancements">Enhancements</h4>
+                <ul>
+                <li>Pressing &amp; holding the Now Playing HUD shortcut will keep the HUD visible until released</li>
+                <li>New transition for small HUDs: Grow from edge, fade out</li>
+                <li>Granular step size now defaults to the macOS default</li>
+                <li>Improved detection of the current active screen</li>
+                <li>Improved hover detection for Now Playing HUD</li>
+                <li>When nothing is played, the Now Playing HUD will be hidden instead of displaying &quot;Unknown&quot; </li>
+                <li>Add audio output to theme preview</li>
+                <li>Slightly tweaked animations</li>
+                <li>Reduced glitches while switching screens</li>
+                <li>Reduced memory usage when Now Playing HUD is disabled</li>
+                <li>Improved general app stability</li>
+                </ul>
+                <h4 id="bugfixes">Bugfixes</h4>
+                <ul>
+                <li>Launch at login at first launch is fixed</li>
+                <li>Fixed an issue where the Now Playing HUD would pop up when it was not needed.</li>
+                </ul>
+            ]]></description>
+            <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.2.3_194/MediaMate_v2.2.3-194.zip" length="5292930" type="application/octet-stream" sparkle:edSignature="+ziUcg9OPzQC5Eq0osf3sUSfTdVX5mHKFOYIhoAKP8Y3B4AEqoq3NSuIfrsB0Qd4Nk+39gDxqEoj1RzoJJ5RDw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.2.3_194/MediaMate194-193.delta" sparkle:deltaFrom="193" length="363234" type="application/octet-stream" sparkle:edSignature="1vX4VWn/PTu2jX2O9wdzRHp90vuSyynWw685a/jlp3z7lLn7yg0H1fhU5bZoJRt0xEcoqMPCrt0lG+//of9SAA=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.2.3_194/MediaMate194-192.delta" sparkle:deltaFrom="192" length="368062" type="application/octet-stream" sparkle:edSignature="qSMdX76OV15NpIfl/8QL6674N/b6EIL8/EYdSF3CGqMoIIrT1wFs1ySu21RsDQcps6SZ0kXBukSgBjb3AZzqAA=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.2.3_194/MediaMate194-188.delta" sparkle:deltaFrom="188" length="556814" type="application/octet-stream" sparkle:edSignature="aWcPu9H0lRKlZHOL6bL1I8TZBiqKBP3+R9EsnXAmhFumeZ2fNNTUFVsGM9hDtsGbh+F/2rg0yqvZ1c7y2sVkCA=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.2.3_194/MediaMate194-181.delta" sparkle:deltaFrom="181" length="2603142" type="application/octet-stream" sparkle:edSignature="nVCSP9ekTQp5KOiR+iMTZiHyy5lAIr9HMxLbj63Y9Qeq4arrfrC0XyqNKgl5RmLiO0jBrf0h6nJSDHt/mKlqDA=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.2.3_194/MediaMate194-179.delta" sparkle:deltaFrom="179" length="2611690" type="application/octet-stream" sparkle:edSignature="7eHwYCTZMJL8CII7dVVtu1Prb2f/SRRffaRwkd/Ta0wic3ibfAhfABX0jbPYpZ8uENkVTFb5EXbcUSYQVeZhDQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.2.2</title>
             <pubDate>Sun, 20 Aug 2023 15:19:50 +0200</pubDate>
             <sparkle:version>193</sparkle:version>
