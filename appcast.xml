@@ -3,6 +3,74 @@
     <channel>
         <title>MediaMate</title>
         <item>
+            <title>2.2.4</title>
+            <pubDate>Tue, 29 Aug 2023 04:06:13 +0200</pubDate>
+            <sparkle:version>196</sparkle:version>
+            <sparkle:shortVersionString>2.2.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3 id="v2-2-4">v2.2.4</h3>
+                <h4 id="new-features">New Features</h4>
+                <ul>
+                <li>Always show the Now Playing HUD on the internal screen (must be enabled in settings)</li>
+                </ul>
+                <h4 id="improvements">Improvements</h4>
+                <ul>
+                <li>Improved logic of showing the Now Playing HUD conditionally based on users preferences</li>
+                <li>Added a way to manually add a bundle id to the now playing blacklist</li>
+                </ul>
+                <h4 id="bugfixes">Bugfixes</h4>
+                <ul>
+                <li>Fixed notch alignment issue when the dock was placed left or right</li>
+                <li>Fixed an issue where now playing keyboard shortcuts could stop working when settings are changed</li>
+                </ul>
+                <h3 id="v2-2-3">v2.2.3</h3>
+                <ul>
+                <li>Fixed an issue where the now playing HUD would not show when the top edge of the notch was clicked</li>
+                <li>Fixed an issue where the now playing HUD would show on the Lock Screen when paused</li>
+                <li>Fixed an issue where the external app support mode would show the system HUD</li>
+                <li>Clarified the usage of system and lunar mode in the advanced tab</li>
+                </ul>
+                <h3 id="v2-2-2">V2.2.2</h3>
+                <ul>
+                <li>Fixed an issue where the Now Playing HUD would show up when clicked on a display above it</li>
+                </ul>
+                <h3 id="v2-2-1">V2.2.1</h3>
+                <h4 id="new-features">New Features</h4>
+                <ul>
+                <li>Show or hide the Now Playing HUD by clicking inside the notch</li>
+                </ul>
+                <h4 id="bugfixes">Bugfixes</h4>
+                <ul>
+                <li>Fixed an issue where the Now Playing HUD would be displayed incorrectly if a fixed width was set</li>
+                <li>Fixed the incorrect colour of the play button in the Now Playing HUD</li>
+                </ul>
+                <h4 id="enhancements">Enhancements</h4>
+                <ul>
+                <li>Clarified the minimum required version of Lunar</li>
+                <li>Clarified why accessibility settings are needed</li>
+                <li>Clarified which settings are available for the Notch mode for Now Playing HUD</li>
+                <li>Added missing acknowledgements</li>
+                </ul>
+                <h2 id="v2-2">v2.2</h2>
+                <h4 id="new-features">New Features</h4>
+                <ul>
+                <li>New Now Playing HUD Style! The new style expands a macbook&#39;s notch to show media details. (macOS 13.0+, only for displays with notch)</li>
+                <li>Hide track title extras (everything between parentheses and brackets) for a cleaner look of the Now Playing HUD (macOS 13.0+)</li>
+                <li>Enhanced support for Lunar: MediaMate will now communicate directly with Lunar. This comes with support for sub-zero dimming, XDR, and the brightness HUD for multiple displays. Volume HUD coming in a later update. Note that some features may require an active Lunar license.</li>
+                <li>Extra controls for expanded Now Playing HUD: Shuffle, Repeat, + / - 15s. Note that these may not work properly for all apps</li>
+                </ul>
+            ]]></description>
+            <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.2.4_196/MediaMate_v2.2.4-196.zip" length="5311830" type="application/octet-stream" sparkle:edSignature="STN4HfDvX4bWwl66ia8LuooLvcqiKDFwwsKoDIrE7TN18GQWfKQprjdlndcOHpGyMibftmK4jrIujQi08wkvAw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.2.4_196/MediaMate196-194.delta" sparkle:deltaFrom="194" length="565298" type="application/octet-stream" sparkle:edSignature="+UipIqtB2XXRj0GYkXKvV/hXUo8dTkt1EVa4d/q3ixtojCcuHBZU1VgaWpmybMKgB6RIsQB1G6WaEi4JOUjQCA=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.2.4_196/MediaMate196-193.delta" sparkle:deltaFrom="193" length="575770" type="application/octet-stream" sparkle:edSignature="o6RIHATzeHKoTS3k68Y/F/YrIPWHWzCB3MyXliohZ7SrEjNs4zf4vpUN1/Ym/jMftVMxTNGCwAbP1YfgvprgDA=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.2.4_196/MediaMate196-192.delta" sparkle:deltaFrom="192" length="578154" type="application/octet-stream" sparkle:edSignature="dPBrKYFG2CPGaYgxqb8sb1f1fRXEquk5V9bPJZxwb5ZauwkuW8JVkVI3fQdd7pvdfodECul3TuiPi/zVGq7nBw=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.2.4_196/MediaMate196-188.delta" sparkle:deltaFrom="188" length="653226" type="application/octet-stream" sparkle:edSignature="H/3VsLasq9d98jL2nJh9SwgZu4ViUrO3vgym5InY+c08DAtJ+KibiY93oSEMDF4ldWpCbr7vsNBG/seLNQjCCQ=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.2.4_196/MediaMate196-181.delta" sparkle:deltaFrom="181" length="2629290" type="application/octet-stream" sparkle:edSignature="qd8Ub3SH1tH32SzfTAOCFoamfF+bCsdxnTE82KnIhghRP9DjUZKkexRA0abTonBsCwbudgvnXmeVIdv6UZ+wAg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.2.3</title>
             <pubDate>Fri, 25 Aug 2023 18:43:43 +0200</pubDate>
             <sparkle:version>194</sparkle:version>
