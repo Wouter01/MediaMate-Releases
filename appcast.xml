@@ -3,6 +3,43 @@
     <channel>
         <title>MediaMate</title>
         <item>
+            <title>2.3.0</title>
+            <pubDate>Thu, 07 Sep 2023 23:37:14 +0200</pubDate>
+            <sparkle:version>197</sparkle:version>
+            <sparkle:shortVersionString>2.3.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3 id="v2-3-0">v2.3.0</h3>
+                <p>Note: this is the last version to support macOS Monterey, except for bug fixes</p>
+                <h4 id="new-features">New Features</h4>
+                <ul>
+                <li>The notch style Now Playing HUD can now be used for each display.</li>
+                <li>Hide the close button on the Now Playing HUD (Can be enabled in settings -&gt; Now Playing -&gt; Layout -&gt; Show Close Button)</li>
+                </ul>
+                <h4 id="improvements">Improvements</h4>
+                <ul>
+                <li>Replaced go to app icon in Now Playing by click on the artwork</li>
+                </ul>
+                <h4 id="bugfixes">Bugfixes</h4>
+                <ul>
+                <li>Fixed focus filter not showing up in System Settings</li>
+                <li>Fixed the Now Playing HUD still showing up in Safari, even when disabled in settings</li>
+                <li>Fixed an issue where the HUDs would jump and resize after switching screens</li>
+                <li>Fixed a regression where the small HUDs would not reposition after dock position changes</li>
+                <li>Fixed the Now Playing HUD not resizing when the display resolution changes</li>
+                <li>Fixed HUDs not working after granting accessibility settings</li>
+                </ul>
+            ]]></description>
+            <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.3.0_197/MediaMate_v2.3.0-197.zip" length="5334082" type="application/octet-stream" sparkle:edSignature="K+NHGCtjnOLWMjsl/krezpVbWxtWU+D8PZYfWSFyBmzMenIsc0m7OjaMpqDdOmSmtK6UUSbzbamabn8BIS43Cg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.3.0_197/MediaMate197-196.delta" sparkle:deltaFrom="196" length="594982" type="application/octet-stream" sparkle:edSignature="mxdwahqxgNHqcV5v9FQl8bYPhvBihG5+gxxgWqvxuhmU8c2mqKi4eud7L1Hh+4Gp221ylLpUAjxLxlgSeKsHBg=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.3.0_197/MediaMate197-194.delta" sparkle:deltaFrom="194" length="673366" type="application/octet-stream" sparkle:edSignature="LrMN9fbriijhb0j5veB+tS/JuWRY897BwQZ+59kOeYIOetStMaFTnw5ntH9sgL1uUVcwNOkQVL54tTdaW3VHDA=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.3.0_197/MediaMate197-193.delta" sparkle:deltaFrom="193" length="680050" type="application/octet-stream" sparkle:edSignature="IVNHnkBcRO15HfM4S+EzqIEM9dQfrrSPHmFYOHd6ZsMUhdC3PqAri0KAP5hrcDLJEklNIvxVaf018EOlZ4kuCQ=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.3.0_197/MediaMate197-192.delta" sparkle:deltaFrom="192" length="681186" type="application/octet-stream" sparkle:edSignature="IFJHdpJZVvDMkmDfenhf87ArawXbA2jjK+aOfpWW9kcWZFANfJ5ZLY8/1sReLUNlYyAhbPsELKj1NCd9CcxiCA=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.3.0_197/MediaMate197-188.delta" sparkle:deltaFrom="188" length="736442" type="application/octet-stream" sparkle:edSignature="u5R3QRe0dfFvIt+ckrNx/u/3vQMJQnFYKF73EHAl8XXhFfX2u0omvEpWj5aPvdt4nuGaiYMNO32bqFrkbz9SDw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.2.4</title>
             <pubDate>Tue, 29 Aug 2023 04:06:13 +0200</pubDate>
             <sparkle:version>196</sparkle:version>
