@@ -3,6 +3,28 @@
     <channel>
         <title>MediaMate</title>
         <item>
+            <title>2.3.2</title>
+            <pubDate>Fri, 06 Oct 2023 00:07:46 +0200</pubDate>
+            <sparkle:version>199</sparkle:version>
+            <sparkle:shortVersionString>2.3.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3 id="v2-3-2">v2.3.2</h3>
+                <h4 id="bugfixes">Bugfixes</h4>
+                <ul>
+                <li>Fixed an issue where the settings window would not open on macOS Sonoma</li>
+                </ul>
+            ]]></description>
+            <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.3.2_199/MediaMate_v2.3.2-199.zip" length="5359265" type="application/octet-stream" sparkle:edSignature="6MtGXSsjH8RDMZN+r9DTalQva8uyhRBaY0LiwxhhsIvhvOpWgdZXBv7OS0wD79/esJS9oX48jSA16grA26L+Bg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.3.2_199/MediaMate199-198.delta" sparkle:deltaFrom="198" length="602342" type="application/octet-stream" sparkle:edSignature="gBpv9hEE6mvulDJNE4TDfNeO4uW32HJM18h/ECn/mO8jL5DxsLUrjgImAqyyf/1PmdBND4Y478T01eOALshbCA=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.3.2_199/MediaMate199-197.delta" sparkle:deltaFrom="197" length="759374" type="application/octet-stream" sparkle:edSignature="DpibqJc/HZGgYMomeCA7zA91eOeIfvpSpt4Skynjv8L/LlVSEuCGu4MZBUN6pyJa1bqhYqy1TuZ2mXUpfmCoBA=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.3.2_199/MediaMate199-196.delta" sparkle:deltaFrom="196" length="887554" type="application/octet-stream" sparkle:edSignature="KovPJ1/XTMJsqMJTDi1RbAt/CaWXcE+aTCIXKMHzfaKWz7ZkQwZh0afrRhHRwCm3dk/L7mYr3rGuqki+ifb6Cw=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.3.2_199/MediaMate199-194.delta" sparkle:deltaFrom="194" length="947350" type="application/octet-stream" sparkle:edSignature="qSNaqgiKgzXUCp/arwSb00hV5dx9er39gteAGaoCW3M7V0i9r2V0mexFDC1dilZWddGriwG6uZztkgWUY5cuBA=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.3.2_199/MediaMate199-193.delta" sparkle:deltaFrom="193" length="955182" type="application/octet-stream" sparkle:edSignature="1eFTZtu1g7dPfQlm2rrVwH+zdb5E5rkLOxf38QadhYZ9YpJW90cRpy8c7fcx5CUzpMlEXwg6pQTuC2eFsUXtBA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.3.1</title>
             <pubDate>Sat, 30 Sep 2023 13:15:39 +0200</pubDate>
             <sparkle:version>198</sparkle:version>
