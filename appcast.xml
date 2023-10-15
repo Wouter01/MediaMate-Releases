@@ -3,6 +3,29 @@
     <channel>
         <title>MediaMate</title>
         <item>
+            <title>2.3.3</title>
+            <pubDate>Sun, 15 Oct 2023 16:29:49 +0200</pubDate>
+            <sparkle:version>200</sparkle:version>
+            <sparkle:shortVersionString>2.3.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3 id="v2-3-3">v2.3.3</h3>
+                <h4 id="bugfixes">Bugfixes</h4>
+                <ul>
+                <li>Fixed AirPods Pro 2 with USB-C case support</li>
+                <li>Fixed an issue where the media playing app icon wouldn&#39;t show in the notch HUD when no artwork is available</li>
+                </ul>
+            ]]></description>
+            <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.3.3_200/MediaMate_v2.3.3-200.zip" length="5361978" type="application/octet-stream" sparkle:edSignature="wxJXhSISNjQcS2GPR0NDYN7cKsE9mQ5ERYjyKw3jsNYkXh5o0PoIjz7p2kqom8Mh1+a5K4jCAJdOUw58jpg6Aw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.3.3_200/MediaMate200-199.delta" sparkle:deltaFrom="199" length="310250" type="application/octet-stream" sparkle:edSignature="md1xYl4ALoGS7KN91XfawsctkvpZRr/CoWjsVHPmI/JBlG7GB+D/fUpDYlh3EOTB+W+pOubbdb6Q6KKNo7WOBg=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.3.3_200/MediaMate200-198.delta" sparkle:deltaFrom="198" length="659926" type="application/octet-stream" sparkle:edSignature="hEw/N+ip+N1IR1kALzMfCZ9npEWI2HgixvUTef5P+4mDShBmc5TCVlMiK9vSROQQyX4NwsryDjXIaJvia1TwBw=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.3.3_200/MediaMate200-197.delta" sparkle:deltaFrom="197" length="777286" type="application/octet-stream" sparkle:edSignature="Bdk/FYwmaGRpfyXLudlWqlKCTeRWAs4eX83IRWLwtQN/GW5wHZX5SS7H84DGjAupHxRTRJGmSDlr/S/ZrVcVAQ=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.3.3_200/MediaMate200-196.delta" sparkle:deltaFrom="196" length="889498" type="application/octet-stream" sparkle:edSignature="UnR94fCrC0m20T4l//zsKDxR0PVvTYqqF49ymzzr6bJj+Tls1X8crAk35u5VS5YsH8ShihlOK8JKm1XeaTGGCQ=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.3.3_200/MediaMate200-194.delta" sparkle:deltaFrom="194" length="952530" type="application/octet-stream" sparkle:edSignature="NXNKQPJ8jG6QzhWyA6J5vPMp9BtUc30lKlPN16VSw1OjsCNgE+nq7PgDQrIVeP4hXz/3BLMnb+9mlR37j+fFCQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.3.2</title>
             <pubDate>Fri, 06 Oct 2023 00:07:46 +0200</pubDate>
             <sparkle:version>199</sparkle:version>
