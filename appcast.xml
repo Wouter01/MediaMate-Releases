@@ -3,6 +3,42 @@
     <channel>
         <title>MediaMate</title>
         <item>
+            <title>2.4.1</title>
+            <pubDate>Sun, 12 Nov 2023 18:52:50 +0100</pubDate>
+            <sparkle:version>204</sparkle:version>
+            <sparkle:shortVersionString>2.4.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3 id="v2-4-1">v2.4.1</h3>
+                <h4 id="improvements">Improvements</h4>
+                <ul>
+                <li>Increased the demo mode time to 30 minutes</li>
+                </ul>
+                <h3 id="v2-4-0">v2.4.0</h3>
+                <h4 id="new-features">New Features</h4>
+                <ul>
+                <li>Drag support for classic HUD theme</li>
+                <li>Quickly enable or disable features from the menu bar (macOS 13.0+)</li>
+                </ul>
+                <h4 id="improvements">Improvements</h4>
+                <ul>
+                <li>Improved reliability of opening settings from menu bar on macOS 14.0</li>
+                </ul>
+                <h4 id="bugfixes">Bugfixes</h4>
+                <ul>
+                <li>Fixed an issue where the app could crash or become unresponsive when skipping through songs.</li>
+                </ul>
+            ]]></description>
+            <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.4.1_204/MediaMate_v2.4.1-204.zip" length="5390490" type="application/octet-stream" sparkle:edSignature="m+F6BZJsQCacAhw+M8Z+aifKIUsQePmKpfstqrcZRHsLg1PzRHqJ0sc7lvWOjTTeX6nHdLCcu3I7wcbbufvEAQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.4.1_204/MediaMate204-202.delta" sparkle:deltaFrom="202" length="226442" type="application/octet-stream" sparkle:edSignature="VSP2x6o+uS6dnTENJ5dF/wiTePkhRKepnVUolTQc/fFXpcZD7zbX8kkWN/svbayXtWEo5N511cKK0YKhW/2dBQ=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.4.1_204/MediaMate204-200.delta" sparkle:deltaFrom="200" length="687362" type="application/octet-stream" sparkle:edSignature="HsWGNahO+cgozZ0SNn3Rlqw2ERLEgOO16l1C3sykTcVwHkwuHSzvGBk4xVEEehmr6hRpS7tcFe1wt5EXSSphBQ=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.4.1_204/MediaMate204-199.delta" sparkle:deltaFrom="199" length="699402" type="application/octet-stream" sparkle:edSignature="Vj2P4BjYN8W2EEbwx0kl2Yg37UOjOXQ3otd+6G1CgMXyWBpeWynkZskKpCIGVopiAs7jhMOfHOGxE4H35GBtCw=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.4.1_204/MediaMate204-198.delta" sparkle:deltaFrom="198" length="890070" type="application/octet-stream" sparkle:edSignature="E/SiUPrJiH7VLApoH2pFi5u2d5nuJWBzuhe7rD0Pj/9VORB5U7yRwf3gh8BVimClPis2H25V1q0jQx5EjT/oBA=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.4.1_204/MediaMate204-197.delta" sparkle:deltaFrom="197" length="940830" type="application/octet-stream" sparkle:edSignature="4OOa+CDz57bppBesOggkEWgUP3iqjoqIcnyokMOpm/q5t4B6KjKr6JsO4vZ8N9PRDeeNOKx3Ni6Dx65d8PZoBw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.4.0</title>
             <pubDate>Sun, 12 Nov 2023 17:27:27 +0100</pubDate>
             <sparkle:version>202</sparkle:version>
