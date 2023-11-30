@@ -3,36 +3,6 @@
     <channel>
         <title>MediaMate</title>
         <item>
-            <title>2.5.0</title>
-            <pubDate>Thu, 30 Nov 2023 00:56:54 +0100</pubDate>
-            <sparkle:version>206</sparkle:version>
-            <sparkle:shortVersionString>2.5.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[
-                <h3 id="v2-5-0">v2.5.0</h3>
-                <h4 id="new-features">New Features</h4>
-                <ul>
-                <li>Show the Now Playing HUD when the volume is changed</li>
-                <li>Show the Volume HUD when an external device changes the volume (e.g. headphones)</li>
-                </ul>
-                <h4 id="bugfixes">BugFixes</h4>
-                <ul>
-                <li>Fixed an issue where the audio output device icons would be too small in the classic theme</li>
-                <li>Fixed an issue where the add button in allowed apps for Now Playing would not show on Monterey</li>
-                <li>Fixed an issue where the app icon would not show up in the dock when settings are opened on macOS Sonoma</li>
-                <li>Fixed an issue where the settings window would not be activated on macOS Sonoma</li>
-                </ul>
-            ]]></description>
-            <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.5.0_206/MediaMate_v2.5.0-206.zip" length="5392966" type="application/octet-stream" sparkle:edSignature="2YgMFM+zs+TL8xEvU4srg+nX4j2u+/zW/HfsuhyLwHVrnmjSUOd3jdBnrt2Qy6mtrsDoSYh7c2H3leL5Y7O2DA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.5.0_206/MediaMate206-204.delta" sparkle:deltaFrom="204" length="670878" type="application/octet-stream" sparkle:edSignature="Zg/eUDfKsThA8MQpfrvCAPtED0IiC0MusUy7XA9tDBmByLJOVKTYhfQxQJBh3W8tda5coa7OHF0RpimEu6jOBw=="/>
-                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.5.0_206/MediaMate206-202.delta" sparkle:deltaFrom="202" length="671338" type="application/octet-stream" sparkle:edSignature="k5f3aJpUG600Y3qkBZNxpqtsv769N5dk4EnaeywamG628lOiyB2bo1WLovd7lL0SWEKlZmTnh3ntKTEbichZBA=="/>
-                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.5.0_206/MediaMate206-200.delta" sparkle:deltaFrom="200" length="788234" type="application/octet-stream" sparkle:edSignature="qJ0koF3Tp2+dyFtfXuXmWyyxBhAEJaqwN59iQhDArkGR245B1ZLKBsEKW1qRUuCAEa4ggoGKH2UjVpv/J3JzBw=="/>
-                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.5.0_206/MediaMate206-199.delta" sparkle:deltaFrom="199" length="800870" type="application/octet-stream" sparkle:edSignature="N+9L2WEBsDjlqc2pAu/4LvpSMk9tHc8yHHvru0AHAKpVuTU6D0NrJqKlCoy2XEaeCrjpcN4epXpdXxzFGriJCw=="/>
-                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.5.0_206/MediaMate206-198.delta" sparkle:deltaFrom="198" length="986078" type="application/octet-stream" sparkle:edSignature="ELrLtoIPfe9CLFgFY1hFtSwHuEG/sQUzHoWhPq0tn1Nbg7Gn8s4cwGHnhBJaxVtV9FDk5ikqtiKgkuTlRpA4Cg=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
             <title>2.4.1</title>
             <pubDate>Sun, 12 Nov 2023 18:52:50 +0100</pubDate>
             <sparkle:version>204</sparkle:version>
