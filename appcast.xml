@@ -3,6 +3,76 @@
     <channel>
         <title>MediaMate</title>
         <item>
+            <title>3.0.0</title>
+            <pubDate>Mon, 15 Jan 2024 16:52:09 +0100</pubDate>
+            <sparkle:version>235</sparkle:version>
+            <sparkle:shortVersionString>3.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3 id="v3-0-0">v3.0.0</h3>
+                <p>Note: this version requires macOS 13 or higher</p>
+                <h4 id="new-features">New Features</h4>
+                <ul>
+                <li>A new circular theme is available for the audio &amp; brightness HUDs. The theme resembles a gauge look, often used for the iOS lock screen widgets.</li>
+                <li>Audio &amp; brightness HUDs can now be shown in the notch. This feature is in beta and may contain weird behaviour when hovering.</li>
+                <li>An onboarding has been added to ease the setup of the app.</li>
+                <li>Support for BetterDisplay (Brightness, Audio)</li>
+                <li>Additional support for Lunar (Audio)</li>
+                <li>Now playing in the notch can be shown by hovering over the notch.</li>
+                <li>Accessibility permission is now optional, depending on which event mode is chosen.</li>
+                <li>An option has been added to show the muted volume state as empty for the volume HUD.</li>
+                <li>New keyboard shortcuts are available to quickly skip or rewind 15 seconds of the playing media.</li>
+                <li>Settings have been reworked and has a sidebar now, just like System Settings. A dedicated style tab has been added for now playing, increasing the consistency of the settings, and reducing clutter. Some other settings have been moved or reworked, making it more clear what they mean.</li>
+                </ul>
+                <h4 id="improvements">Improvements</h4>
+                <ul>
+                <li>The internals of the Now Playing feature have been rebuild. This should result in Now Playing being more reliable.</li>
+                <li>The Now Playing HUD won&#39;t show on play and pause of media by default. This behavior can be changed in settings.</li>
+                <li>The Now Playing HUD will be hidden on the Lock Screen by default.</li>
+                <li>A new method is used for launch at login.</li>
+                <li>The layout of the small system HUDs has been improved. When a HUD is placed in a display corner, it should be aligned better.</li>
+                <li>A new button has been added to quickly add the current playing app to the now playing blacklist</li>
+                <li>The menubar menu is more compact (macOS 14+)</li>
+                <li>The design of the classic system HUD has been slightly tweaked.</li>
+                <li>The transition between the classic now playing small &amp; large HUD has been improved.</li>
+                <li>Added an option to ignore the dock area.</li>
+                <li>Added option to disable extended keyboard support. Previously, this was enabled by default. Disabling this will reduce the idle power usage of the app slightly.</li>
+                <li>Increased Demo Mode time to 1 hour</li>
+                <li>Improved messages and UI for when actions need to happen.</li>
+                <li>Reduced CPU load when displaying the Now Playing progress bar</li>
+                <li>Reduced CPU load when skipping songs, showing the notch, and showing the detached HUDs.</li>
+                <li>Reduced memory usage for some parts of the app.</li>
+                </ul>
+                <h4 id="bugfixes">Bugfixes</h4>
+                <ul>
+                <li>Fixed an issue where the notch would not animate when using Spotify</li>
+                <li>Fixed an issue where the notch contents would not animate</li>
+                <li>Fixed an issue where the now playing progress bar would flicker</li>
+                <li>Fixed an issue where the now playing progress bar would not update</li>
+                <li>Fixed an issue where the now playing progress bar would jump when pausing or resuming</li>
+                <li>Fixed an issue where the now playing progress bar would be too small</li>
+                <li>Fixed an issue where Spotify Connect would not work properly with Now Playing.</li>
+                <li>Fixed an issue where disk access would be requested when showing theme settings when using a custom wallpaper</li>
+                <li>Solved a crash that could occur when displaying certain types of artwork</li>
+                <li>Fixed an issue where the keyboard and mouse would stop working after disabling accessibility permission.</li>
+                <li>Fixed an issue where setting the time of a song would be incorrect.</li>
+                <li>Fixed an issue where demo mode would be disabled when the screen is locked.</li>
+                </ul>
+                <h4 id="removed">Removed</h4>
+                <ul>
+                <li>The option to customize the accent color has been removed. Instead, the app will follow the accent color set by the system.</li>
+                </ul>
+            ]]></description>
+            <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.0.0_235/MediaMate_v3.0.0-235.zip" length="5774412" type="application/octet-stream" sparkle:edSignature="e9xp24g7ZJ+2w71N9GFUOBp+6FViDEtyyLMs6G6Y8cLM+xjUZNygqR6l9/fsvbQoXrzjm+zco7EZMKhpTsxGDg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.0.0_235/MediaMate235-210.delta" sparkle:deltaFrom="210" length="1984498" type="application/octet-stream" sparkle:edSignature="HhWBnWKG66XHQmkks7xlrekiC07P85loCYtq21xWkFf4JTi0KT1e9E7C6atfaKLlog2QxsEKUH3YBwEpL4LhBw=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.0.0_235/MediaMate235-209.delta" sparkle:deltaFrom="209" length="1989026" type="application/octet-stream" sparkle:edSignature="+8RzlwJkzO9Q6i+BYXyUSXwm1ti4JbJCrr0klVn9u3j33FkE82tGh6mimCBhy23GgtHM6fMJaovxJEPMF3gjDQ=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.0.0_235/MediaMate235-206.delta" sparkle:deltaFrom="206" length="1977338" type="application/octet-stream" sparkle:edSignature="VKsE4f6SJ0VemNPXDFBvdVNLYXy72LJmTHQ/aF8sWz23EB4OKQXgW7CYdWhcEaO8MrHrUuY9BV2WPiz4UJKIBg=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.0.0_235/MediaMate235-204.delta" sparkle:deltaFrom="204" length="2008942" type="application/octet-stream" sparkle:edSignature="v5C5yNk/zsTj+K8rChLgT4EriLN8iGcY6O2fIGVVfXFr+b9UQCi2+l+OjkQYP9fbYu0Hv4KlfUAXszKl4E1bCA=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.0.0_235/MediaMate235-202.delta" sparkle:deltaFrom="202" length="2008294" type="application/octet-stream" sparkle:edSignature="hEKaNEryVj224BAX5agnPqcK0z77kCfJkJe+2eUDYGbpzYZevmD7phZQ+BxmYBgGLCoDL4JKR2GezqyuPvJEDA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.5.1</title>
             <pubDate>Mon, 04 Dec 2023 15:51:35 +0100</pubDate>
             <sparkle:version>210</sparkle:version>
@@ -18,11 +88,11 @@
             ]]></description>
             <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.5.1_210/MediaMate_v2.5.1-210.zip" length="5341640" type="application/octet-stream" sparkle:edSignature="res4nOc6qfY0a+axxVWOyBpere4+L4YFd604Pe9h55hlDG12owW58jRXe8j0bx5hkYXJPi/iXlOnQA631ma+AA=="/>
             <sparkle:deltas>
-                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.5.1_210/MediaMate210-206.delta" sparkle:deltaFrom="206" length="521806" type="application/octet-stream" sparkle:edSignature="4OI91QBaN5y+uYfAkOvPsEYfBvRTBdw5GYXSOVXwVkK16uf3Lps1w5Y/dN7tmOqjTALialNWKjE3WpP+GlOYDg=="/>
-                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.5.1_210/MediaMate210-200.delta" sparkle:deltaFrom="200" length="788298" type="application/octet-stream" sparkle:edSignature="dBPWAbS5xkoYv2R6SYkXqXWDrYJT5LeGGF7k7yikLI5B1hl1qeUJ0iMfu4i44iGHf0W6x4FaSScc6bNECSIPCg=="/>
-                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.5.1_210/MediaMate210-204.delta" sparkle:deltaFrom="204" length="663726" type="application/octet-stream" sparkle:edSignature="dexQUvPSBTCjaqsXtshq4b8wbzkNEUoQqO8jlbwrJBKGwGA0Yw7bTetDBnCUM9vlBF2w+jlgaf5LtHNHSMMRDg=="/>
                 <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.5.1_210/MediaMate210-209.delta" sparkle:deltaFrom="209" length="509342" type="application/octet-stream" sparkle:edSignature="Fk405a8UsbJYn4Mh4yO2BTtzgqJdxhiZoVKsF0sGYzjc2CPu+Yj+kkVrvDWkQInRQwNMqVNuyXu57oH8V1qZBg=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.5.1_210/MediaMate210-206.delta" sparkle:deltaFrom="206" length="521806" type="application/octet-stream" sparkle:edSignature="4OI91QBaN5y+uYfAkOvPsEYfBvRTBdw5GYXSOVXwVkK16uf3Lps1w5Y/dN7tmOqjTALialNWKjE3WpP+GlOYDg=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.5.1_210/MediaMate210-204.delta" sparkle:deltaFrom="204" length="663726" type="application/octet-stream" sparkle:edSignature="dexQUvPSBTCjaqsXtshq4b8wbzkNEUoQqO8jlbwrJBKGwGA0Yw7bTetDBnCUM9vlBF2w+jlgaf5LtHNHSMMRDg=="/>
                 <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.5.1_210/MediaMate210-202.delta" sparkle:deltaFrom="202" length="662642" type="application/octet-stream" sparkle:edSignature="ck/8RV0agpWsXkir/RKH4Mzq2wJizUdIPWl3Nz70Q0HqbUfpuw9vBP+Z7Q7VpYSfUvrlThkqlItek2sv5MryCw=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.5.1_210/MediaMate210-200.delta" sparkle:deltaFrom="200" length="788298" type="application/octet-stream" sparkle:edSignature="dBPWAbS5xkoYv2R6SYkXqXWDrYJT5LeGGF7k7yikLI5B1hl1qeUJ0iMfu4i44iGHf0W6x4FaSScc6bNECSIPCg=="/>
             </sparkle:deltas>
         </item>
         <item>
@@ -48,11 +118,11 @@
             ]]></description>
             <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.5.0_209/MediaMate_v2.5.0-209.zip" length="5339614" type="application/octet-stream" sparkle:edSignature="8fTkpsCYh/K2DJCxlKuBI3sQzgoOQ07NjJ8Qa+QqnXGVeEukkqGz+vULITimYSxfqgnD3NFRzyfAjjQQ6/f7DQ=="/>
             <sparkle:deltas>
-                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.5.0_209/MediaMate209-206.delta" sparkle:deltaFrom="206" length="408810" type="application/octet-stream" sparkle:edSignature="u1nCqPo79xJyLPg5NMGf0/P+ON73dNKi9EeX1AxhOqeiLsD//pNZ1q/Igi/LICHzy99TVwCneEz1u2QWRSlADw=="/>
-                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.5.0_209/MediaMate209-204.delta" sparkle:deltaFrom="204" length="643770" type="application/octet-stream" sparkle:edSignature="ilxBsLjIH43r7xC8YCacD7PhvVN1Pu5/5fAtJHEdCyfYY9e5ynTrmYgyyACTaBW5oCp/AOodqcTwjm7MNjoiBw=="/>
-                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.5.0_209/MediaMate209-202.delta" sparkle:deltaFrom="202" length="648250" type="application/octet-stream" sparkle:edSignature="cahkma4iLpEVVrJTaeGosZ+A8DUlrbCvgy9kQcRqeqme5rZj+AM6TznTpKd4sOLTB8vcJ1KsVhCspUtm8lVdBw=="/>
-                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.5.0_209/MediaMate209-200.delta" sparkle:deltaFrom="200" length="761702" type="application/octet-stream" sparkle:edSignature="d0yq42j6mxeau1fNTmeddQs7kGfl0ILMPgBO088pd9JofZ8ksz9BHIF/7XfsF/hMsM8iwL42F07IrYab4hy8BA=="/>
-                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.5.0_209/MediaMate209-199.delta" sparkle:deltaFrom="199" length="774666" type="application/octet-stream" sparkle:edSignature="0tQioNOrCmAeSt86Xu2aQqj7X387A0xa8Tmd1u5Km9cJ4DnteYfkTIIwHqW/xIJo1JLPrAuOyEP0EOAalMXfDw=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.5.0_206/MediaMate209-202.delta" sparkle:deltaFrom="202" length="648250" type="application/octet-stream" sparkle:edSignature="cahkma4iLpEVVrJTaeGosZ+A8DUlrbCvgy9kQcRqeqme5rZj+AM6TznTpKd4sOLTB8vcJ1KsVhCspUtm8lVdBw=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.5.0_206/MediaMate209-200.delta" sparkle:deltaFrom="200" length="761702" type="application/octet-stream" sparkle:edSignature="d0yq42j6mxeau1fNTmeddQs7kGfl0ILMPgBO088pd9JofZ8ksz9BHIF/7XfsF/hMsM8iwL42F07IrYab4hy8BA=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.5.0_206/MediaMate209-206.delta" sparkle:deltaFrom="206" length="408810" type="application/octet-stream" sparkle:edSignature="u1nCqPo79xJyLPg5NMGf0/P+ON73dNKi9EeX1AxhOqeiLsD//pNZ1q/Igi/LICHzy99TVwCneEz1u2QWRSlADw=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v_/MediaMate209-204.delta" sparkle:deltaFrom="204" length="643770" type="application/octet-stream" sparkle:edSignature="ilxBsLjIH43r7xC8YCacD7PhvVN1Pu5/5fAtJHEdCyfYY9e5ynTrmYgyyACTaBW5oCp/AOodqcTwjm7MNjoiBw=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v_/MediaMate209-199.delta" sparkle:deltaFrom="199" length="774666" type="application/octet-stream" sparkle:edSignature="0tQioNOrCmAeSt86Xu2aQqj7X387A0xa8Tmd1u5Km9cJ4DnteYfkTIIwHqW/xIJo1JLPrAuOyEP0EOAalMXfDw=="/>
             </sparkle:deltas>
         </item>
         <item>
@@ -166,7 +236,7 @@
                 <li>Fixed an issue where the media playing app icon wouldn&#39;t show in the notch HUD when no artwork is available</li>
                 </ul>
             ]]></description>
-            <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.3.3_200/MediaMate_v2.3.3-200.zip" length="5361978" type="application/octet-stream" sparkle:edSignature="wxJXhSISNjQcS2GPR0NDYN7cKsE9mQ5ERYjyKw3jsNYkXh5o0PoIjz7p2kqom8Mh1+a5K4jCAJdOUw58jpg6Aw=="/>
+            <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.3.3_200/MediaMate_v2.3.3-200.zip" length="5468442" type="application/octet-stream" sparkle:edSignature="EulYSFSMuqQeHPoke0QvZDngZmF2rKU2u+vGBJYdWJechcrfjg1bFHQJALKYjmhtE35H82oabtVMBzHqnCE6Cg=="/>
             <sparkle:deltas>
                 <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.3.3_200/MediaMate200-199.delta" sparkle:deltaFrom="199" length="310250" type="application/octet-stream" sparkle:edSignature="md1xYl4ALoGS7KN91XfawsctkvpZRr/CoWjsVHPmI/JBlG7GB+D/fUpDYlh3EOTB+W+pOubbdb6Q6KKNo7WOBg=="/>
                 <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.3.3_200/MediaMate200-198.delta" sparkle:deltaFrom="198" length="659926" type="application/octet-stream" sparkle:edSignature="hEw/N+ip+N1IR1kALzMfCZ9npEWI2HgixvUTef5P+4mDShBmc5TCVlMiK9vSROQQyX4NwsryDjXIaJvia1TwBw=="/>
