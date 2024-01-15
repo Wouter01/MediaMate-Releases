@@ -3,6 +3,89 @@
     <channel>
         <title>MediaMate</title>
         <item>
+            <title>3.0.1</title>
+            <pubDate>Mon, 15 Jan 2024 22:48:59 +0100</pubDate>
+            <sparkle:version>238</sparkle:version>
+            <sparkle:shortVersionString>3.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3 id="v3-0-1">v3.0.1</h3>
+                <h4 id="bugfixes">Bugfixes</h4>
+                <ul>
+                <li>Fixed an issue where the app would crash when using bluetooth audio</li>
+                <li>Fixed an issue where the native HUD would not always reappear after quitting the app</li>
+                </ul>
+                <h4 id="improvements">Improvements</h4>
+                <ul>
+                <li>System HUD position setting is now disabled when the notch style is chosen</li>
+                <li>Editing BetterDisplay settings is more reliable</li>
+                <li>Added warning when changing BetterDisplay settings</li>
+                </ul>
+                <h3 id="v3-0-0">v3.0.0</h3>
+                <p>Note: this version requires macOS 13 or higher</p>
+                <h4 id="new-features">New Features</h4>
+                <ul>
+                <li>A new circular theme is available for the audio &amp; brightness HUDs. The theme resembles a gauge look, often used for the iOS lock screen widgets.</li>
+                <li>Audio &amp; brightness HUDs can now be shown in the notch. This feature is in beta and may contain weird behaviour when hovering.</li>
+                <li>An onboarding has been added to ease the setup of the app.</li>
+                <li>Support for BetterDisplay (Brightness, Audio)</li>
+                <li>Additional support for Lunar (Audio)</li>
+                <li>Now playing in the notch can be shown by hovering over the notch.</li>
+                <li>Accessibility permission is now optional, depending on which event mode is chosen.</li>
+                <li>An option has been added to show the muted volume state as empty for the volume HUD.</li>
+                <li>New keyboard shortcuts are available to quickly skip or rewind 15 seconds of the playing media.</li>
+                <li>Settings have been reworked and has a sidebar now, just like System Settings. A dedicated style tab has been added for now playing, increasing the consistency of the settings, and reducing clutter. Some other settings have been moved or reworked, making it more clear what they mean.</li>
+                </ul>
+                <h4 id="improvements">Improvements</h4>
+                <ul>
+                <li>The internals of the Now Playing feature have been rebuild. This should result in Now Playing being more reliable.</li>
+                <li>The Now Playing HUD won&#39;t show on play and pause of media by default. This behavior can be changed in settings.</li>
+                <li>The Now Playing HUD will be hidden on the Lock Screen by default.</li>
+                <li>A new method is used for launch at login.</li>
+                <li>The layout of the small system HUDs has been improved. When a HUD is placed in a display corner, it should be aligned better.</li>
+                <li>A new button has been added to quickly add the current playing app to the now playing blacklist</li>
+                <li>The menubar menu is more compact (macOS 14+)</li>
+                <li>The design of the classic system HUD has been slightly tweaked.</li>
+                <li>The transition between the classic now playing small &amp; large HUD has been improved.</li>
+                <li>Added an option to ignore the dock area.</li>
+                <li>Added option to disable extended keyboard support. Previously, this was enabled by default. Disabling this will reduce the idle power usage of the app slightly.</li>
+                <li>Increased Demo Mode time to 1 hour</li>
+                <li>Improved messages and UI for when actions need to happen.</li>
+                <li>Reduced CPU load when displaying the Now Playing progress bar</li>
+                <li>Reduced CPU load when skipping songs, showing the notch, and showing the detached HUDs.</li>
+                <li>Reduced memory usage for some parts of the app.</li>
+                </ul>
+                <h4 id="bugfixes">Bugfixes</h4>
+                <ul>
+                <li>Fixed an issue where the notch would not animate when using Spotify</li>
+                <li>Fixed an issue where the notch contents would not animate</li>
+                <li>Fixed an issue where the now playing progress bar would flicker</li>
+                <li>Fixed an issue where the now playing progress bar would not update</li>
+                <li>Fixed an issue where the now playing progress bar would jump when pausing or resuming</li>
+                <li>Fixed an issue where the now playing progress bar would be too small</li>
+                <li>Fixed an issue where Spotify Connect would not work properly with Now Playing.</li>
+                <li>Fixed an issue where disk access would be requested when showing theme settings when using a custom wallpaper</li>
+                <li>Solved a crash that could occur when displaying certain types of artwork</li>
+                <li>Fixed an issue where the keyboard and mouse would stop working after disabling accessibility permission.</li>
+                <li>Fixed an issue where setting the time of a song would be incorrect.</li>
+                <li>Fixed an issue where demo mode would be disabled when the screen is locked.</li>
+                </ul>
+                <h4 id="removed">Removed</h4>
+                <ul>
+                <li>The option to customize the accent color has been removed. Instead, the app will follow the accent color set by the system.</li>
+                </ul>
+
+            ]]></description>
+            <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.0.1_238/MediaMate_v3.0.1-238.zip" length="5783908" type="application/octet-stream" sparkle:edSignature="Zj0179V0eDs9ptQ9YNXEwMpOlQtmKD7K06RwGV1X4OcUSYFqGtyR2xksOLkl65XTPklBs5XJKZW1Z+/N0vR3DA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.0.1_238/MediaMate238-235.delta" sparkle:deltaFrom="235" length="552298" type="application/octet-stream" sparkle:edSignature="7/13Rf+L1BmnvjgB3npsiECbd7XO+bJesiUuKwoZnEsZJQ8ClXZK2OyCA+EqEcKVmNm98vRhVO760YzeLimWAg=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.0.1_238/MediaMate238-210.delta" sparkle:deltaFrom="210" length="1988618" type="application/octet-stream" sparkle:edSignature="M7ygCO+4L6LwOxIbrk2Ds4uzaL0i6JkDmelxQ74FFBBT0EIKR50r/i9nNsARbisRvjRyv55IGr2+efFrcMK7Bg=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.0.1_238/MediaMate238-209.delta" sparkle:deltaFrom="209" length="1995602" type="application/octet-stream" sparkle:edSignature="5yV/iXRlSZYjpoHbVWsxRWztCUb7N1xj0iIYGOKcM15so9oACqmaQRo61ZOTyhte4St7LvtyDMaVD+TVaIoyDA=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.0.1_238/MediaMate238-206.delta" sparkle:deltaFrom="206" length="1984082" type="application/octet-stream" sparkle:edSignature="sp0EcH9D26KhD1UhEna6AQu54t3D2h9vJjrze0CxwPzo5DMHauvhF50dyXt3Fy/5ZH74wX0SlO0zcbCCMkqNBA=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.0.1_238/MediaMate238-204.delta" sparkle:deltaFrom="204" length="2016062" type="application/octet-stream" sparkle:edSignature="mPxXF8aaV2Oa7tjo36VJlzZtNS75ZH9TnvxjQM//Zs3kjlYWt+TH+qtZd587kZ9eFBP5W3Yzl+IMBNskH/oIDA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>3.0.0</title>
             <pubDate>Mon, 15 Jan 2024 16:52:09 +0100</pubDate>
             <sparkle:version>235</sparkle:version>
