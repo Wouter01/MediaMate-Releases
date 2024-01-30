@@ -3,6 +3,41 @@
     <channel>
         <title>MediaMate</title>
         <item>
+            <title>3.0.6</title>
+            <pubDate>Tue, 30 Jan 2024 16:17:27 +0100</pubDate>
+            <sparkle:version>247</sparkle:version>
+            <sparkle:shortVersionString>3.0.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3 id="v3-0-6">v3.0.6</h3>
+                <h4 id="new-features">New Features</h4>
+                <ul>
+                <li>New option to only show the Now Playing HUD when the media is manually changed.</li>
+                </ul>
+                <h4 id="improvements">Improvements</h4>
+                <ul>
+                <li>Circular Theme can now be made larger</li>
+                </ul>
+                <h4 id="bugfixes">Bugfixes</h4>
+                <ul>
+                <li>Fixed an issue where the &quot;Grow from Edge&quot; transition would be incorrect.</li>
+                <li>Fixed an issue where the Now Playing expanded HUD would jump when hovering over the progress bar.</li>
+                <li>Fixed an issue where the classic Now Playing HUD could be hidden behind the notch.</li>
+                <li>Fixed a regression where the &quot;Center&quot; position would not be offset anymore.</li>
+                <li>Fixed an issue where the audio balance would be reset when the volume has been changed.</li>
+                <li>Fixed an issue where the license would be activated multiple times.</li>
+                </ul>
+            ]]></description>
+            <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.0.6_247/MediaMate_v3.0.6-247.zip" length="5747515" type="application/octet-stream" sparkle:edSignature="DoponmKAjtiOOj6ZV6tfJ8Iv2klW3CwmZflZIoz/UvkD5CV+OiBLPt1rP2t7nmJqfGgN9aV0l9z/5pZIfWxtDA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.0.6_247/MediaMate247-246.delta" sparkle:deltaFrom="246" length="1434226" type="application/octet-stream" sparkle:edSignature="SXIpoL8zNyMnJ5TeqzeGvGmt+zFDLCObGOsFTO/mEelt8EoIwQN1+TBqTcm0mec7/1mQ3qgSdzckcjmPHJoBDg=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.0.6_247/MediaMate247-243.delta" sparkle:deltaFrom="243" length="1434646" type="application/octet-stream" sparkle:edSignature="n1W8FECUIOy0r3P6lEUbj2paIozjhsO1qpEwzz+Q20GrOp1T2YNkDW19Qmtt6NTwonOHs3MLfD+zu6ZYsvJRAA=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.0.6_247/MediaMate247-240.delta" sparkle:deltaFrom="240" length="1436066" type="application/octet-stream" sparkle:edSignature="kHZK5/4kURNs6fFEKuQRVbTSdA5KUm0k+pK7+uVBL9v5lhEZTXL2Af0TGUfZJlHKhrs47rNXO+I/RR8Lq+aSCA=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.0.6_247/MediaMate247-239.delta" sparkle:deltaFrom="239" length="1437654" type="application/octet-stream" sparkle:edSignature="cKwfuYkJy+yBN/bytef9N4518T+IWLwaT8mK7LLr5SEIpdq47pkTueJxKsXfy9TMjXfcavJtDHprvzyWZbjSDg=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.0.6_247/MediaMate247-238.delta" sparkle:deltaFrom="238" length="1435186" type="application/octet-stream" sparkle:edSignature="yWIDcvZmY0SVRmvD0nO/8yNoacTqdnWxlTmLbjXqD7zrOqh9BoQkx0qgUKlvbrs7YaqstOuhrYjQwkdAWl0eDA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>3.0.5</title>
             <pubDate>Wed, 17 Jan 2024 02:36:34 +0100</pubDate>
             <sparkle:version>246</sparkle:version>
