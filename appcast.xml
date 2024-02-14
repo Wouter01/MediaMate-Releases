@@ -3,6 +3,42 @@
     <channel>
         <title>MediaMate</title>
         <item>
+            <title>3.1.0</title>
+            <pubDate>Wed, 14 Feb 2024 18:14:34 +0100</pubDate>
+            <sparkle:version>256</sparkle:version>
+            <sparkle:shortVersionString>3.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3 id="v3-1">v3.1</h3>
+                <h4 id="new-features">New Features</h4>
+                <ul>
+                <li>Choose a separate style for displays with and without a physical notch.</li>
+                </ul>
+                <h4 id="improvements">Improvements</h4>
+                <ul>
+                <li>Improved support for multi-display setups</li>
+                <li>Added missing &quot;Show Output Device&quot; options for Circular and Notch theme</li>
+                <li>Improved detection of manual song change</li>
+                </ul>
+                <h4 id="bugfixes">Bugfixes</h4>
+                <ul>
+                <li>Fixed an issue where the notch HUD would be placed incorrectly after switching displays</li>
+                <li>Fixed an issue where a virtual audio channel would be incorrectly represented with a display icon</li>
+                <li>Fixed an issue where the notch theme for Now Playing would ignore artwork settings</li>
+                <li>The notch will not expand anymore when no style is set to notch</li>
+                <li>Fixed an issue where the notch would sometimes disappear unexpectedly </li>
+                </ul>
+            ]]></description>
+            <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.1.0_256/MediaMate_v3.1.0-256.zip" length="5797381" type="application/octet-stream" sparkle:edSignature="3+CUjNvYXcfCV1e+6LoBvSBi3CDaaZmb5Z1A4Hs60bqFbBCfpeZqw4nKEmaeUZW1MODtZNYmduI1rEv6U4fbAw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.1.0_256/MediaMate256-249.delta" sparkle:deltaFrom="249" length="966682" type="application/octet-stream" sparkle:edSignature="w5s3fISD+ehiWgk56S/njBtfWt+I+sORWliPxxsfjeRtN2UGP6sL56Z8gVP+aMlLxy5i0E9k3hfi+LOjcwZ5AA=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.1.0_256/MediaMate256-247.delta" sparkle:deltaFrom="247" length="966610" type="application/octet-stream" sparkle:edSignature="+u0j5dJXJYihlbR4snuymTFpKJKHYU6gmWAt/wIkkWvTc7h/vN4FhEDp7Tt/G8bhCstGVihEvEZIwvzAHndlDA=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.1.0_256/MediaMate256-246.delta" sparkle:deltaFrom="246" length="1611322" type="application/octet-stream" sparkle:edSignature="V6q16KEL54CCp/mxXLR6M+2h2iObBbiXUBxvi2kLFTR5cjZrXfvUYEJPN3Ebr4CxiZV3HBYsKHiX2mx6ur1DAg=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.1.0_256/MediaMate256-243.delta" sparkle:deltaFrom="243" length="1610002" type="application/octet-stream" sparkle:edSignature="OpF3O9otdPsAVgGOJvJtwfAkgm6u72X0o8/LcFpXXa8C13wRynUppDXv32/RYlAUFpZ1z/pJua5xLTaUWvczAw=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.1.0_256/MediaMate256-240.delta" sparkle:deltaFrom="240" length="1622426" type="application/octet-stream" sparkle:edSignature="ibaIDytCELyIrXR3J75g6juSETI8ZvXxocoxAj9qrGAS0I7wnZra25dq9WTLd+hGusqwdmjjtBY9dMnN58rkDA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>3.0.7</title>
             <pubDate>Tue, 30 Jan 2024 18:49:25 +0100</pubDate>
             <sparkle:version>249</sparkle:version>
