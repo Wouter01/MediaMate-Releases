@@ -9,6 +9,7 @@
             <sparkle:shortVersionString>3.1.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
+                <p><strong>Warning: Your theme settings will be reset. This will only happen once. Apologies for the inconvenience</strong></p>
                 <h3 id="v3-1-1">v3.1.1</h3>
                 <h4 id="bugfixes">Bugfixes</h4>
                 <ul>
