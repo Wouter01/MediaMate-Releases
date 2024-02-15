@@ -3,13 +3,60 @@
     <channel>
         <title>MediaMate</title>
         <item>
+            <title>3.1.2</title>
+            <pubDate>Thu, 15 Feb 2024 12:12:53 +0100</pubDate>
+            <sparkle:version>258</sparkle:version>
+            <sparkle:shortVersionString>3.1.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3 id="v3-1-2">v3.1.2</h3>
+                <h4 id="bugfixes">Bugfixes</h4>
+                <ul>
+                <li>Fixes an issue where the theme settings were not migrated correctly.</li>
+                </ul>
+                <h3 id="v3-1-1">v3.1.1</h3>
+                <h4 id="bugfixes">Bugfixes</h4>
+                <ul>
+                <li>Fixed a crash that occurred during setup</li>
+                <li>Fixed a bug where too much content would be shown during setup</li>
+                </ul>
+                <h3 id="v3-1-0">v3.1.0</h3>
+                <h4 id="new-features">New Features</h4>
+                <ul>
+                <li>Choose a separate style for displays with and without a physical notch.</li>
+                </ul>
+                <h4 id="improvements">Improvements</h4>
+                <ul>
+                <li>Improved support for multi-display setups</li>
+                <li>Added missing &quot;Show Output Device&quot; options for Circular and Notch theme</li>
+                <li>Improved detection of manual song change</li>
+                </ul>
+                <h4 id="bugfixes">Bugfixes</h4>
+                <ul>
+                <li>Fixed an issue where the notch HUD would be placed incorrectly after switching displays</li>
+                <li>Fixed an issue where a virtual audio channel would be incorrectly represented with a display icon</li>
+                <li>Fixed an issue where the notch theme for Now Playing would ignore artwork settings</li>
+                <li>The notch will not expand anymore when no style is set to notch</li>
+                <li>Fixed an issue where the notch would sometimes disappear unexpectedly</li>
+                </ul>
+
+            ]]></description>
+            <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.1.2_258/MediaMate_v3.1.2-258.zip" length="5799561" type="application/octet-stream" sparkle:edSignature="EHckMUpUJ18NcYk7Cs9JCbXgExJHy9ZImAXK37plY7blBtxHRceIMtTzERiB9oGPJbUl0/2dmqVpRAYHJFuCDg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.1.2_258/MediaMate258-257.delta" sparkle:deltaFrom="257" length="388950" type="application/octet-stream" sparkle:edSignature="kdYmiJIBwv/TuGMsbowoBE5XGt9x+rBrOgSt6KVpdMxanFP4wYhBPrUogqfcmwYJxm3ZAfOUVFEtpVRwgUjYBQ=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.1.2_258/MediaMate258-256.delta" sparkle:deltaFrom="256" length="502154" type="application/octet-stream" sparkle:edSignature="AGxPGXA9qbqAQw00riGL4QoWppWob4IIb1gbv7A3PJAHJSDg2Llx6P5BnRVILOgwT7ga4XK/OtZDhA7z5K6aCA=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.1.2_258/MediaMate258-249.delta" sparkle:deltaFrom="249" length="971458" type="application/octet-stream" sparkle:edSignature="dTWRLVQULd4slkpWKkTcEPIPJ+IHUia0HrN3xZa65FyrrAZPh/kyBI11+px3V8XbA2kT5nqEiBIkWX9NqjI8AA=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.1.2_258/MediaMate258-247.delta" sparkle:deltaFrom="247" length="973462" type="application/octet-stream" sparkle:edSignature="SD21QxxFgyyNBr1e1QbGZVpXMdVNTRXZ8QNN7Ikpg2Q8p/W0xABUdL+cUDOpskST1p9JKqp7ury2b0PqiUNaCQ=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.1.2_258/MediaMate258-246.delta" sparkle:deltaFrom="246" length="1616734" type="application/octet-stream" sparkle:edSignature="JSAFOubvFAK0Tow3MoGHMl7SOMURiOR13ijdcn523NcAXlpFTCg3ftguRJPpALKAgLxhEFdVFWeyx9MxYtEYCA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>3.1.1</title>
             <pubDate>Thu, 15 Feb 2024 10:56:58 +0100</pubDate>
             <sparkle:version>257</sparkle:version>
             <sparkle:shortVersionString>3.1.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
-                <p><strong>Warning: Your theme settings will be reset. This will only happen once. Apologies for the inconvenience</strong></p>
                 <h3 id="v3-1-1">v3.1.1</h3>
                 <h4 id="bugfixes">Bugfixes</h4>
                 <ul>
@@ -707,9 +754,9 @@
             ]]></description>
             <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.5.1_210/MediaMate_v2.5.1-210.zip" length="5341640" type="application/octet-stream" sparkle:edSignature="res4nOc6qfY0a+axxVWOyBpere4+L4YFd604Pe9h55hlDG12owW58jRXe8j0bx5hkYXJPi/iXlOnQA631ma+AA=="/>
             <sparkle:deltas>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.5.1_210/MediaMate210-206.delta" sparkle:deltaFrom="206" length="521806" type="application/octet-stream" sparkle:edSignature="4OI91QBaN5y+uYfAkOvPsEYfBvRTBdw5GYXSOVXwVkK16uf3Lps1w5Y/dN7tmOqjTALialNWKjE3WpP+GlOYDg=="/>
                 <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.5.1_210/MediaMate210-209.delta" sparkle:deltaFrom="209" length="509342" type="application/octet-stream" sparkle:edSignature="Fk405a8UsbJYn4Mh4yO2BTtzgqJdxhiZoVKsF0sGYzjc2CPu+Yj+kkVrvDWkQInRQwNMqVNuyXu57oH8V1qZBg=="/>
                 <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.5.1_210/MediaMate210-204.delta" sparkle:deltaFrom="204" length="663726" type="application/octet-stream" sparkle:edSignature="dexQUvPSBTCjaqsXtshq4b8wbzkNEUoQqO8jlbwrJBKGwGA0Yw7bTetDBnCUM9vlBF2w+jlgaf5LtHNHSMMRDg=="/>
-                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.5.1_210/MediaMate210-206.delta" sparkle:deltaFrom="206" length="521806" type="application/octet-stream" sparkle:edSignature="4OI91QBaN5y+uYfAkOvPsEYfBvRTBdw5GYXSOVXwVkK16uf3Lps1w5Y/dN7tmOqjTALialNWKjE3WpP+GlOYDg=="/>
                 <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.5.1_210/MediaMate210-202.delta" sparkle:deltaFrom="202" length="662642" type="application/octet-stream" sparkle:edSignature="ck/8RV0agpWsXkir/RKH4Mzq2wJizUdIPWl3Nz70Q0HqbUfpuw9vBP+Z7Q7VpYSfUvrlThkqlItek2sv5MryCw=="/>
                 <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.5.1_210/MediaMate210-200.delta" sparkle:deltaFrom="200" length="788298" type="application/octet-stream" sparkle:edSignature="dBPWAbS5xkoYv2R6SYkXqXWDrYJT5LeGGF7k7yikLI5B1hl1qeUJ0iMfu4i44iGHf0W6x4FaSScc6bNECSIPCg=="/>
             </sparkle:deltas>
