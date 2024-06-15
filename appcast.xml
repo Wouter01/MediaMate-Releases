@@ -8,6 +8,20 @@
             <sparkle:version>272</sparkle:version>
             <sparkle:shortVersionString>3.4.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3 id="v3-4-0">v3.4.0</h3>
+                <h4 id="new-features">New Features</h4>
+                <ul>
+                <li>Option for custom shortcuts for the Keyboard Brightness HUD</li>
+                <li>Added option to show percentage label for the system HUD notch theme<h4 id="improvements">Improvements</h4>
+                </li>
+                <li>Disabled sidebar collapse for settings window</li>
+                <li>Added Dutch localization<h4 id="bugfixes">Bugfixes</h4>
+                </li>
+                <li>Fixed an issue where the menubar item would not work on macOS 15</li>
+                <li>Fixed an issue where the settings window would not be displayed correctly on macOS 15</li>
+                </ul>
+            ]]></description>
             <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.4.0_272/MediaMate_v3.4.0-272.zip" length="5796092" type="application/octet-stream" sparkle:edSignature="M6e6t1scii3DKfzYj1EnI+IxqS0NkZlAM10DnB7XmB5eZRiBCVlDAvBATWipHT3bJkFZbs23wgbsOw3duHvQAg=="/>
             <sparkle:deltas>
                 <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.4.0_272/MediaMate272-269.delta" sparkle:deltaFrom="269" length="2479790" type="application/octet-stream" sparkle:edSignature="PSEoBFacdZkx2Kzh5/+xb2J+xATX+W686EoEdPg8ZXtJIm+OtdrclBM0kaTYZcE+c4KPGLLnHBk2+/otfM/cDw=="/>
