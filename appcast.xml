@@ -3,6 +3,41 @@
     <channel>
         <title>MediaMate</title>
         <item>
+            <title>3.4.1</title>
+            <pubDate>Sat, 15 Jun 2024 12:41:40 +0200</pubDate>
+            <sparkle:version>274</sparkle:version>
+            <sparkle:shortVersionString>3.4.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3 id="v3-4-1">v3.4.1</h3>
+                <p>This version fixes a critical bug which crashed the previous version.</p>
+                <h3 id="v3-4-0">v3.4.0</h3>
+                <h4 id="new-features">New Features</h4>
+                <ul>
+                <li>Option for custom shortcuts for the Keyboard Brightness HUD</li>
+                <li>Added option to show percentage label for the system HUD notch theme</li>
+                </ul>
+                <h4 id="improvements">Improvements</h4>
+                <ul>
+                <li>Disabled sidebar collapse for settings window</li>
+                <li>Added Dutch localization</li>
+                </ul>
+                <h4 id="bugfixes">Bugfixes</h4>
+                <ul>
+                <li>Fixed an issue where the menubar item would not work on macOS 15</li>
+                <li>Fixed an issue where the settings window would not be displayed correctly on macOS 15</li>
+                </ul>
+            ]]></description>
+            <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.4.1_274/MediaMate_v3.4.1-274.zip" length="5794580" type="application/octet-stream" sparkle:edSignature="mkIrx4S0tSjfNpLrxGr/Uy4pp69g0XOiL/fvw3pQsT0UZoxm/+18Ua8umXPyVXzLqD4B75Bk9qZpJagFD2//Cw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.4.1_274/MediaMate274-272.delta" sparkle:deltaFrom="272" length="491134" type="application/octet-stream" sparkle:edSignature="nZJF5vRJNMDmqYEtgDg4OZ62qrr5gp37RJ0+ZjIrKNYqp5/fGc1zqGVoA0fy8+A19hcqdtHv7h6Dm+AwI3mxDg=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.4.1_274/MediaMate274-269.delta" sparkle:deltaFrom="269" length="2479238" type="application/octet-stream" sparkle:edSignature="ORFGaKZJ0wAKio2IsJor3sHpCvIqO6xw3SVoDMpiDj4349jyxMkY9sROaCuVxPBrCbJf6VMw7hSnAEnEnP8DCQ=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.4.1_274/MediaMate274-265.delta" sparkle:deltaFrom="265" length="2505782" type="application/octet-stream" sparkle:edSignature="7zcpVx9DT6ntjs/muA91oudITMoZkSuSdovc0UxHJ60vtEZ8PIJ4IUmHnPirDzO8KVznlC8ZpYXHNj6hsLFODA=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.4.1_274/MediaMate274-259.delta" sparkle:deltaFrom="259" length="2526218" type="application/octet-stream" sparkle:edSignature="6jGd8V8OEUkF5i/j5IgokcbqgIO7s5K4mbK1irPCTf/K4bl1j7SmW/lxgukvPMX1DRkW62BSg+qR4iuvshnqCw=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.4.1_274/MediaMate274-258.delta" sparkle:deltaFrom="258" length="2528670" type="application/octet-stream" sparkle:edSignature="jjL4Q3RJFCVgPM+XcBGcWXb2y7YjBfqop4yR8AEPOf1zIIZXm2qc3o7+VTyoyEGXhmwoNd8V770+4FIeFwsgCw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>3.3.0</title>
             <pubDate>Mon, 08 Apr 2024 17:04:55 +0200</pubDate>
             <sparkle:version>269</sparkle:version>
@@ -856,8 +891,8 @@
             <sparkle:deltas>
                 <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.5.1_210/MediaMate210-209.delta" sparkle:deltaFrom="209" length="509342" type="application/octet-stream" sparkle:edSignature="Fk405a8UsbJYn4Mh4yO2BTtzgqJdxhiZoVKsF0sGYzjc2CPu+Yj+kkVrvDWkQInRQwNMqVNuyXu57oH8V1qZBg=="/>
                 <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.5.1_210/MediaMate210-206.delta" sparkle:deltaFrom="206" length="521806" type="application/octet-stream" sparkle:edSignature="4OI91QBaN5y+uYfAkOvPsEYfBvRTBdw5GYXSOVXwVkK16uf3Lps1w5Y/dN7tmOqjTALialNWKjE3WpP+GlOYDg=="/>
-                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.5.1_210/MediaMate210-202.delta" sparkle:deltaFrom="202" length="662642" type="application/octet-stream" sparkle:edSignature="ck/8RV0agpWsXkir/RKH4Mzq2wJizUdIPWl3Nz70Q0HqbUfpuw9vBP+Z7Q7VpYSfUvrlThkqlItek2sv5MryCw=="/>
                 <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.5.1_210/MediaMate210-204.delta" sparkle:deltaFrom="204" length="663726" type="application/octet-stream" sparkle:edSignature="dexQUvPSBTCjaqsXtshq4b8wbzkNEUoQqO8jlbwrJBKGwGA0Yw7bTetDBnCUM9vlBF2w+jlgaf5LtHNHSMMRDg=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.5.1_210/MediaMate210-202.delta" sparkle:deltaFrom="202" length="662642" type="application/octet-stream" sparkle:edSignature="ck/8RV0agpWsXkir/RKH4Mzq2wJizUdIPWl3Nz70Q0HqbUfpuw9vBP+Z7Q7VpYSfUvrlThkqlItek2sv5MryCw=="/>
                 <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v2.5.1_210/MediaMate210-200.delta" sparkle:deltaFrom="200" length="788298" type="application/octet-stream" sparkle:edSignature="dBPWAbS5xkoYv2R6SYkXqXWDrYJT5LeGGF7k7yikLI5B1hl1qeUJ0iMfu4i44iGHf0W6x4FaSScc6bNECSIPCg=="/>
             </sparkle:deltas>
         </item>
