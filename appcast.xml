@@ -13,11 +13,15 @@
                 <h4 id="new-features">New Features</h4>
                 <ul>
                 <li>Option for custom shortcuts for the Keyboard Brightness HUD</li>
-                <li>Added option to show percentage label for the system HUD notch theme<h4 id="improvements">Improvements</h4>
-                </li>
+                <li>Added option to show percentage label for the system HUD notch theme</li>
+                </ul>
+                <h4 id="improvements">Improvements</h4>
+                <ul>
                 <li>Disabled sidebar collapse for settings window</li>
-                <li>Added Dutch localization<h4 id="bugfixes">Bugfixes</h4>
-                </li>
+                <li>Added Dutch localization</li>
+                </ul>
+                <h4 id="bugfixes">Bugfixes</h4>
+                <ul>
                 <li>Fixed an issue where the menubar item would not work on macOS 15</li>
                 <li>Fixed an issue where the settings window would not be displayed correctly on macOS 15</li>
                 </ul>
