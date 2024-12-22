@@ -3,6 +3,23 @@
     <channel>
         <title>MediaMate</title>
         <item>
+            <title>3.6.2</title>
+            <pubDate>Sun, 22 Dec 2024 12:16:41 +0100</pubDate>
+            <sparkle:version>288</sparkle:version>
+            <sparkle:shortVersionString>3.6.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3 id="bugfixes">Bugfixes</h3>
+                <ul>
+                <li>Fixed an issue where the settings could crash when opening the styles tab on recent macOS versions</li>
+                </ul>
+            ]]></description>
+            <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.6.2_288/MediaMate_v3.6.2-288.zip" length="6354497" type="application/octet-stream" sparkle:edSignature="Kbbh/xVxc+sW4ZDC9YgS1qXOxFBYZucETyhijDr96ksKzGDiVfgRC1yJxQW/Kmtt8H7NycVbYaxvj13npnsdCQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.6.2_288/MediaMate288-198.delta" sparkle:deltaFrom="198" length="3651334" type="application/octet-stream" sparkle:edSignature="mJH0TRSqL81lThedgOqKrQzZ8iF3w5JT5lG36Ctd/xBBYWI0wUdStFujb7K5vJsghpIaqZf3LKYp3k5oF+QcCQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>3.6.1</title>
             <pubDate>Sun, 01 Sep 2024 21:15:02 +0200</pubDate>
             <sparkle:version>283</sparkle:version>
@@ -69,6 +86,14 @@
                 <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.5.1_279/MediaMate279-272.delta" sparkle:deltaFrom="272" length="1071042" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864896" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="eAEpSmiWQ5CEn16jeOrUvLrwhc4zLfsWUdPv/WJ05hD8RspEZVCj5gvB+b7cW9oQY0IAW5J4jAXTGeFfvdkDDg=="/>
                 <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.5.1_279/MediaMate279-269.delta" sparkle:deltaFrom="269" length="2647310" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="865120" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="Wc/fxl+mRJYxU2xq+iWNN34J6Nq873oXKOJOahgfHvVIGyDvYngLOjvMS83BTayygT9uIsy9EGpBAIJqcBNVAA=="/>
             </sparkle:deltas>
+        </item>
+        <item>
+            <title>3.5.0</title>
+            <pubDate>Mon, 17 Jun 2024 17:17:31 +0200</pubDate>
+            <sparkle:version>278</sparkle:version>
+            <sparkle:shortVersionString>3.5.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.5.0_278/MediaMate_v3.5.0-278.zip" length="5876193" type="application/octet-stream" sparkle:edSignature="sFQ9YAuTZTjDOoU4p6tr/mIkhUXiy1nK/skq9vVtoIzisFXP8sqYHHNeIMKQkthr88tQ0k0RspGlqDke8un0Aw=="/>
         </item>
         <item>
             <title>2.5.1</title>
