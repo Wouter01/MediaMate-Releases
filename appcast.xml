@@ -3,6 +3,44 @@
     <channel>
         <title>MediaMate</title>
         <item>
+            <title>3.7.2</title>
+            <pubDate>Sun, 13 Apr 2025 16:48:51 +0200</pubDate>
+            <sparkle:version>301</sparkle:version>
+            <sparkle:shortVersionString>3.7.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2 id="3-7-2">3.7.2</h2>
+                <h3 id="new-features">New features</h3>
+                <ul>
+                <li>The now playing classic style now uses the same control buttons style and customisation options.</li>
+                </ul>
+                <h3 id="improvements">Improvements</h3>
+                <ul>
+                <li>Improved the performance of the keyboard handling</li>
+                </ul>
+                <h3 id="bugfixes">Bugfixes</h3>
+                <ul>
+                <li>Fixed an issue with the now playing classic style control buttons, which wouldn&#39;t map to the correct app.</li>
+                </ul>
+                <h2 id="3-7-1">3.7.1</h2>
+                <p><strong>IMPORTANT</strong></p>
+                <p>The previous behaviour of the now playing feature has been restored on macOS 15.4! It is off by default, but can be re-enabled by choosing the &quot;system-wide&quot; option in MediaMate settings.</p>
+                <p>Bugfixes</p>
+                <p>Restored support for system wide media info
+                Fixed an issue with the &quot;capture media keys&quot; feature where pressing a media key would register it multiple times when external monitors are connected.
+                Fixed an issue where the app would consume more power when media is playing
+                Adjusted the default setting of the now playing music source (Spotify &amp; Apple Music on by default instead of only Apple Music)</p>
+            ]]></description>
+            <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.7.2_301/MediaMate_v3.7.2-301.zip" length="7489562" type="application/octet-stream" sparkle:edSignature="yY+YUL1vKzmSbPxrF5d8VHg2PY+J1uOlU76FFotFifjc6kaJ3czJscujSs3+ZWP2O3opA3MQVpwEUDKN9DuQAA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.7.2_301/MediaMate301-300.delta" sparkle:deltaFrom="300" length="799446" type="application/octet-stream" sparkle:edSignature="wXyhYB3yA2xwAbVrnAl8onBnjl+C3hyfwK34B3WiviA+03sY1BOGRWyPdtF+GcmUZHPtsq8mGO7Uas6fxO8YBQ=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.7.2_301/MediaMate301-294.delta" sparkle:deltaFrom="294" length="2165446" type="application/octet-stream" sparkle:edSignature="MxYoxlQjsaNk9Ka3mQylKZCy78fN1fUaiUK2G8nx02kNGPnOwiIFTh0CgPqfLsNMybCmdcgfOroT7FuknQMMBQ=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.7.2_301/MediaMate301-288.delta" sparkle:deltaFrom="288" length="3718622" type="application/octet-stream" sparkle:edSignature="u1XJ5JNe7QDuo9CLvx2r1yyWU31CKo/dzjBLiQsYWoCQnfZCHip6LGlqYUQUBWUZA9TJ2c3kBI07nqgWAA2UDA=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.7.2_301/MediaMate301-283.delta" sparkle:deltaFrom="283" length="3749350" type="application/octet-stream" sparkle:edSignature="xzpSW4RhGqNu7LunitzGTL5lQu3LM2B8fKfHNqCuXS+cPQClVbHPPXG+vc2EEbq+m6V4eB6qm1GUFqPIdSkZBw=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.7.2_301/MediaMate301-281.delta" sparkle:deltaFrom="281" length="3753518" type="application/octet-stream" sparkle:edSignature="Vtm/ReHlNbSdr4fNUF/1CQtwr+rBQBHhUGrTvx64wrm3WalZS3Noc3JIY19oeK2SuZmATGBqwG9FZJJ5gHuGCg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>3.7.1</title>
             <pubDate>Sat, 12 Apr 2025 22:02:06 +0200</pubDate>
             <sparkle:version>300</sparkle:version>
