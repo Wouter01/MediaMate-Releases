@@ -3,6 +3,51 @@
     <channel>
         <title>MediaMate</title>
         <item>
+            <title>3.7.3</title>
+            <pubDate>Mon, 14 Apr 2025 23:24:21 +0200</pubDate>
+            <sparkle:version>302</sparkle:version>
+            <sparkle:shortVersionString>3.7.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2 id="v3-7-3">v3.7.3</h2>
+                <h3 id="bugfixes">Bugfixes</h3>
+                <ul>
+                <li>Fixed a crash when using the Apple Music integration</li>
+                </ul>
+                <h2 id="v3-7-2">v3.7.2</h2>
+                <h3 id="new-features">New features</h3>
+                <ul>
+                <li>The now playing classic style now uses the same control buttons style and customisation options.</li>
+                </ul>
+                <h3 id="improvements">Improvements</h3>
+                <ul>
+                <li>Improved the performance of the keyboard handling</li>
+                </ul>
+                <h3 id="bugfixes">Bugfixes</h3>
+                <ul>
+                <li>Fixed an issue with the now playing classic style control buttons, which wouldn&#39;t map to the correct app.</li>
+                </ul>
+                <h2 id="v3-7-1">v3.7.1</h2>
+                <p><strong>IMPORTANT</strong>
+                The previous behaviour of the now playing feature has been restored on macOS 15.4! It is off by default, but can be re-enabled by choosing the &quot;system-wide&quot; option in MediaMate settings.</p>
+                <h3 id="bugfixes">Bugfixes</h3>
+                <ul>
+                <li>Restored support for system wide media info</li>
+                <li>Fixed an issue with the &quot;capture media keys&quot; feature where pressing a media key would register it multiple times when external monitors are connected.</li>
+                <li>Fixed an issue where the app would consume more power when media is playing</li>
+                <li>Adjusted the default setting of the now playing music source (Spotify &amp; Apple Music on by default instead of only Apple Music)</li>
+                </ul>
+            ]]></description>
+            <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.7.3_302/MediaMate_v3.7.3-302.zip" length="7488865" type="application/octet-stream" sparkle:edSignature="3kE/U+RhIEJLzVkq0IZUs8Pi1yr4vjWce8e8Kk17Yxi0TfVNYbPQMrTwZc62ueSTccqEmpLxLTEHDsEle/H0BA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.7.3_302/MediaMate302-301.delta" sparkle:deltaFrom="301" length="738578" type="application/octet-stream" sparkle:edSignature="FmYdpLJ1XJTEelpWjbmy3coGC0vjzxcj0ykNSlV0v4nYu+tIItH/7n8i+NcBcVR8mT2j0CzoZLKZTDp1kt3lBw=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.7.3_302/MediaMate302-300.delta" sparkle:deltaFrom="300" length="919838" type="application/octet-stream" sparkle:edSignature="rwz3nsKnB/LfJbSwjiT+s75t+rHGyxqzvqZ2EMqB6xwtlB1dajcPUjNYYJx44DPj0MNXrWE9cgTztNyzT3yzBQ=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.7.3_302/MediaMate302-294.delta" sparkle:deltaFrom="294" length="2186842" type="application/octet-stream" sparkle:edSignature="6K6mN6IFiQ78Arm9BLFdKXzcu8c5PwCJtRCm+BC6EFBQIHQhDr3XQSrv4m9VI2Irtpbi9VE9R04WHmflPRjJCg=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.7.3_302/MediaMate302-288.delta" sparkle:deltaFrom="288" length="3736170" type="application/octet-stream" sparkle:edSignature="t9csqBYeNZyvH8gRbZpGcV0n0NsnehQj62mkAgNK7xazYlQIWLSh90uNVrDFgcQgLHPI7RK4Srf/dcGpKpGACA=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.7.3_302/MediaMate302-283.delta" sparkle:deltaFrom="283" length="3765018" type="application/octet-stream" sparkle:edSignature="6PAhIat2iaJUwvlosQt2ZIpcUxMxxStFKt1TB51wbbMUriimdz4MwpTi2HTQEG1UyIxp/IbwmpjTLhAz2XGdCg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>3.7.2</title>
             <pubDate>Sun, 13 Apr 2025 16:48:51 +0200</pubDate>
             <sparkle:version>301</sparkle:version>
