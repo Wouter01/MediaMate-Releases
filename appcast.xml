@@ -3,6 +3,53 @@
     <channel>
         <title>MediaMate</title>
         <item>
+            <title>3.8.0</title>
+            <pubDate>Sat, 13 Sep 2025 22:03:40 +0200</pubDate>
+            <sparkle:version>310</sparkle:version>
+            <sparkle:shortVersionString>3.8.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3 id="v3-8-0">v3.8.0</h3>
+                <p>This release adds support for macOS 26</p>
+                <h4 id="new-features">New Features</h4>
+                <ul>
+                <li>Liquid Glass option for all non-notch HUD styles</li>
+                <li>Customise how long system HUDs are visible </li>
+                </ul>
+                <h4 id="improvements">Improvements</h4>
+                <ul>
+                <li>Improved the layout of the classic now playing HUD</li>
+                <li>Text animates while switching songs</li>
+                <li>Improved overshoot animation for classic and iOS HUDs</li>
+                <li>Now Playing HUD is now not always shown on launch</li>
+                <li>Improved the classic Now Playing HUD transition</li>
+                </ul>
+                <h4 id="bugfixes">Bugfixes</h4>
+                <ul>
+                <li>Fixed an issue where the macOS system HUDs are visible while MediaMate is running on macOS 26</li>
+                <li>Fixed an issue where the settings window would appear incorrectly on macOS 26</li>
+                <li>Fixed an issue where the onboarding window would not appear on macOS 26</li>
+                <li>Fixed an issue where the system HUDs would flicker on macOS 26</li>
+                </ul>
+                <h4 id="removed-features">Removed features</h4>
+                <ul>
+                <li>Removed the &quot;Show background&quot; option from the classic system HUD style. </li>
+                </ul>
+                <h4 id="known-issues">Known issues</h4>
+                <ul>
+                <li>The onboarding window background might flicker on macOS 26</li>
+                </ul>
+            ]]></description>
+            <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.8.0_310/MediaMate_v3.8.0-310.zip" length="8290120" type="application/octet-stream" sparkle:edSignature="N4O0gj+9DS8RbJEpqAnaBF1HYK3EyoLx6AkCPolkNhJHlqZSjRDNqDRmqKWL5FcvYpJn47oWAt8nnDVoV7qQAQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.8.0_310/MediaMate310-302.delta" sparkle:deltaFrom="302" length="2820798" type="application/octet-stream" sparkle:edSignature="RVCF8cpUWtCSZcTdw7PQYUYRbij8aTn4waP4zW00/WmPvv4TzW+uP/05a/Thkf2PEBLM7zdsBWZo5eNQ/uY1DQ=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.8.0_310/MediaMate310-301.delta" sparkle:deltaFrom="301" length="2819314" type="application/octet-stream" sparkle:edSignature="jiDI3dPfyPtGqFGIKNmhUjSrK9UVH8KIeOiUBFVD8UGhK4+7BPWMmXc2m1dSsdqAAcUMzytE1YOhhmIC2wHhAg=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.8.0_310/MediaMate310-300.delta" sparkle:deltaFrom="300" length="2829126" type="application/octet-stream" sparkle:edSignature="SW+e8klDmJe5uabv4/YqwDVlje0S3Qk/q9O27ZC+77FRzjjKHY3CmteXPc88TNd1KAq0dqKDt7jqWSJmz3ruDw=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.8.0_310/MediaMate310-294.delta" sparkle:deltaFrom="294" length="3715954" type="application/octet-stream" sparkle:edSignature="BGlHId7XG1ZLov0zrXgXC7ueaKFiR9U9HG7JLTj+36MEuxYN5Ej4Rq9/6j1hjyI7vCDQEaR9OF7KgcXwyEMbBg=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.8.0_310/MediaMate310-288.delta" sparkle:deltaFrom="288" length="4506890" type="application/octet-stream" sparkle:edSignature="JODAzrQzbryQpPDWkOeVj4CCL90WLc/ARDNUgeTWa0/rJcqAQNfs0U/QeZGq7HVMmL9yG3jZOG3eouzMoWuMDA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>3.7.3</title>
             <pubDate>Mon, 14 Apr 2025 23:24:21 +0200</pubDate>
             <sparkle:version>302</sparkle:version>
