@@ -3,6 +3,60 @@
     <channel>
         <title>MediaMate</title>
         <item>
+            <title>3.8.1</title>
+            <pubDate>Sun, 14 Sep 2025 10:53:59 +0200</pubDate>
+            <sparkle:version>312</sparkle:version>
+            <sparkle:shortVersionString>3.8.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3 id="v3-8-1">v3.8.1</h3>
+                <h4 id="bugfixes">Bugfixes</h4>
+                <ul>
+                <li>Fixed an issue where the iOS system HUD would be incorrectly styled pre-macOS 26</li>
+                <li>Fixed an issue where the notch HUD would appear behind the menu bar</li>
+                </ul>
+                <h3 id="v3-8-0">v3.8.0</h3>
+                <p>This release adds support for macOS 26</p>
+                <h4 id="new-features">New Features</h4>
+                <ul>
+                <li>Liquid Glass option for all non-notch HUD styles</li>
+                <li>Customise how long system HUDs are visible </li>
+                </ul>
+                <h4 id="improvements">Improvements</h4>
+                <ul>
+                <li>Improved the layout of the classic now playing HUD</li>
+                <li>Text animates while switching songs</li>
+                <li>Improved overshoot animation for classic and iOS HUDs</li>
+                <li>Now Playing HUD is now not always shown on launch</li>
+                <li>Improved the classic Now Playing HUD transition</li>
+                </ul>
+                <h4 id="bugfixes">Bugfixes</h4>
+                <ul>
+                <li>Fixed an issue where the macOS system HUDs are visible while MediaMate is running on macOS 26</li>
+                <li>Fixed an issue where the settings window would appear incorrectly on macOS 26</li>
+                <li>Fixed an issue where the onboarding window would not appear on macOS 26</li>
+                <li>Fixed an issue where the system HUDs would flicker on macOS 26</li>
+                </ul>
+                <h4 id="removed-features">Removed features</h4>
+                <ul>
+                <li>Removed the &quot;Show background&quot; option from the classic system HUD style. </li>
+                </ul>
+                <h4 id="known-issues">Known issues</h4>
+                <ul>
+                <li>The onboarding window background might flicker on macOS 26</li>
+                </ul>
+
+            ]]></description>
+            <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.8.1_312/MediaMate_v3.8.1-312.zip" length="8135242" type="application/octet-stream" sparkle:edSignature="/48RBVbgKvxsz8IXLt+CtINpB6rvRUn5MBHuKE4Q6JxXWterc4hkJ/rYyZwxZB2XtkKhlabL81NVSaOz6Kp8BA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.8.1_312/MediaMate312-310.delta" sparkle:deltaFrom="310" length="521490" type="application/octet-stream" sparkle:edSignature="ME190a7mXHM++WCmZTnN+vaYpceCXTUt/BMwjQVqCEzAOPlASzbnVr/iKxBRbjdfjgahf/B4GEn7uY72fo+jCg=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.8.1_312/MediaMate312-302.delta" sparkle:deltaFrom="302" length="2823778" type="application/octet-stream" sparkle:edSignature="kr//6rCJdraGNVfNO2e1ghhyl8y13oLdemdWYdqWANbYzRqb4Kw96qKNcHm1D98sPM4U+kuRcf1ulWApfXtQAw=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.8.1_312/MediaMate312-301.delta" sparkle:deltaFrom="301" length="2824502" type="application/octet-stream" sparkle:edSignature="NxIVJ17ZdeJntVmaSEDyUcgsw9wHiPzcfga+hytaL9BpYlz0rNZqtWix+7x3GYRjGHz9Yvi0hgYqxkhuhRVtDQ=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.8.1_312/MediaMate312-300.delta" sparkle:deltaFrom="300" length="2834146" type="application/octet-stream" sparkle:edSignature="LWsHbHZwY90+bWpDhjGWQl0vPO7HcH3gX3VdF7VPscWnuvJ7fRHLLZPqfsngv256lLr+GgL6Ij4P2ujSX05ZDA=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.8.1_312/MediaMate312-294.delta" sparkle:deltaFrom="294" length="3722406" type="application/octet-stream" sparkle:edSignature="xWFzP5czGKdUUUwUKhuDk/UpDNsGfH8h3xZAU9PnJBqwMjdEptaqYirAczv+VUNqdkJu/XW5fBLV+6itDJj3Dw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>3.8.0</title>
             <pubDate>Sat, 13 Sep 2025 22:03:40 +0200</pubDate>
             <sparkle:version>310</sparkle:version>
