@@ -16,6 +16,7 @@
                 <li>Fixed an issue where the notch HUD would appear behind the menu bar on macOS 26</li>
                 <li>Fixed an issue where the HUD would not appear in fullscreen apps on macOS 26</li>
                 <li>Fixed an issue where notch hover would not work properly on macOS 26</li>
+                <li>Fixed an issue with demo mode on macOS 26</li>
                 </ul>
             ]]></description>
             <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.8.2_316/MediaMate_v3.8.2-316.zip" length="8277783" type="application/octet-stream" sparkle:edSignature="/tK/VcPhYibvc8Vjj54pQ6/qg41BVET9APxIhnQiBl2aiU27kE0W1C/L8nLN7vBw9N97nRHmYZlCGANgmzf7Ag=="/>
