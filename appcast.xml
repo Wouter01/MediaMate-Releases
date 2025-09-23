@@ -3,6 +3,31 @@
     <channel>
         <title>MediaMate</title>
         <item>
+            <title>3.8.2</title>
+            <pubDate>Tue, 23 Sep 2025 08:49:58 +0200</pubDate>
+            <sparkle:version>316</sparkle:version>
+            <sparkle:shortVersionString>3.8.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3 id="v3-8-2">v3.8.2</h3>
+                <h4 id="bugfixes">Bugfixes</h4>
+                <ul>
+                <li>Fixed an issue where the HUD placement would behave incorrectly on macOS 26</li>
+                <li>Fixed an issue where the notch HUD would appear behind the menu bar on macOS 26</li>
+                <li>Fixed an issue where the HUD would not appear in fullscreen apps on macOS 26</li>
+                <li>Fixed an issue where notch hover would not work properly on macOS 26</li>
+                </ul>
+            ]]></description>
+            <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.8.2_316/MediaMate_v3.8.2-316.zip" length="8277783" type="application/octet-stream" sparkle:edSignature="/tK/VcPhYibvc8Vjj54pQ6/qg41BVET9APxIhnQiBl2aiU27kE0W1C/L8nLN7vBw9N97nRHmYZlCGANgmzf7Ag=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.8.2_316/MediaMate316-312.delta" sparkle:deltaFrom="312" length="730870" type="application/octet-stream" sparkle:edSignature="QlbSglJ3btEKQbn5reDLK/T6kNexlWNEtHOHxVp/DytlSGwC0eOVRwJ0/fYKZG/uMZ49lrsm4+Q4zdaoIafFBA=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.8.2_316/MediaMate316-310.delta" sparkle:deltaFrom="310" length="777390" type="application/octet-stream" sparkle:edSignature="mgMpztdfXVnjih/jiHBHaCszpBTrZZRlhYerMCUiD5n052F9CURWSLRu2cK1/agNzWaW1qM7JucYf9dcqOj6DQ=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.8.2_316/MediaMate316-302.delta" sparkle:deltaFrom="302" length="2810630" type="application/octet-stream" sparkle:edSignature="QJ8+7Jeav68ym5mbXnWHR2nU244mtDEm0sBgU+aLvB0650uxRJv7WpgCysmzczAdCI96ovNkRpNgXboceInXDg=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.8.2_316/MediaMate316-301.delta" sparkle:deltaFrom="301" length="2815998" type="application/octet-stream" sparkle:edSignature="+yZcSVxGkYOrNtgNM9z0BPJwoIklHDYTJ8o2oaWRU/00bZ94pdt1PdlNjnLb3/u+uRALMmEuPX9opLWHtqevCg=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.8.2_316/MediaMate316-300.delta" sparkle:deltaFrom="300" length="2825766" type="application/octet-stream" sparkle:edSignature="TO3sNxWTDwmlqjCQ9QyWZV6ylSb48WKMoO+vZSwWxvuj2PUPahfQ/ahziSfSo26BfM7Tl471/HyTDDcYdNqwBg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>3.8.1</title>
             <pubDate>Sun, 14 Sep 2025 10:53:59 +0200</pubDate>
             <sparkle:version>312</sparkle:version>
