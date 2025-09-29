@@ -3,6 +3,35 @@
     <channel>
         <title>MediaMate</title>
         <item>
+            <title>3.8.3</title>
+            <pubDate>Mon, 29 Sep 2025 22:48:53 +0200</pubDate>
+            <sparkle:version>319</sparkle:version>
+            <sparkle:shortVersionString>3.8.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3 id="v3-8-3">v3.8.3</h3>
+                <h4 id="improvements">Improvements</h4>
+                <ul>
+                <li>Added icons for AirPods pro 3, AirPods 4 (ANC), AirPods Max (2024), Powerbeats Pro 2, Beats Solo Buds, Beats Studio Pro, Beats Studio Buds +</li>
+                <li>Classic Now Playing HUD is now shown on notch hover</li>
+                </ul>
+                <h4 id="bugfixes">Bugfixes</h4>
+                <ul>
+                <li>Fixed an issue where the now playing information would not update after a while using the system HUD</li>
+                <li>Fixed minimise option of iOS HUD style when liquid glass is enabled</li>
+                <li>Fixed system HUD classic style grow from edge transition</li>
+                </ul>
+            ]]></description>
+            <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.8.3_319/MediaMate_v3.8.3-319.zip" length="8139918" type="application/octet-stream" sparkle:edSignature="K1xPwwZRurcqGfX2SpLEHi7492L62ohGa/qVDMLFfn4M6nljIolk/FDA8xihs4BykMsTN/o0vwgi7ltB/+jvBw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.8.3_319/MediaMate319-316.delta" sparkle:deltaFrom="316" length="841746" type="application/octet-stream" sparkle:edSignature="HLd0maWCOk+9T/To5U1Y6/ci8FF0FhTNtIesqZOXXZPKMGXhsuz5nXMhFUZnIs6d9JYQEP5d9UTVX7drAeYiAA=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.8.3_319/MediaMate319-312.delta" sparkle:deltaFrom="312" length="902130" type="application/octet-stream" sparkle:edSignature="P0vXP2SQ4O2UmGEOpVyIy22gaesm9IIWzkmiMRsnDDqqkEaOu7Jrsj+U3WGnpFPI0oRVmc5XrlHpWkgZ8f3FCA=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.8.3_319/MediaMate319-310.delta" sparkle:deltaFrom="310" length="921582" type="application/octet-stream" sparkle:edSignature="Nj+Eki9HE25rk2R6mHddh3bgP1naqqlY5fXkJJ8rWm/9wN4ktUTTd1PLr468ND97dSrM6C/0sRc8fYjSfV0BCQ=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.8.3_319/MediaMate319-302.delta" sparkle:deltaFrom="302" length="2833018" type="application/octet-stream" sparkle:edSignature="YMtLx5DKJrb/2MPTExO0upDIdWaeX4U3K4xtTs5SXc01Kghi35M8ArKgXjHFF8+1C9RRVEi+v2fxUWHETLV+Aw=="/>
+                <enclosure url="https://github.com/Wouter01/MediaMate-Releases/releases/download/v3.8.3_319/MediaMate319-301.delta" sparkle:deltaFrom="301" length="2840610" type="application/octet-stream" sparkle:edSignature="Dn2zd/Xu10LpmktwC9+WMI3ORJx2sC6G4dI0pFl91wi5nGyh5QRCsGxQJyscPSKXsUAbOxGpdvNB/QGgsBqYDQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>3.8.2</title>
             <pubDate>Tue, 23 Sep 2025 08:49:58 +0200</pubDate>
             <sparkle:version>316</sparkle:version>
